@@ -57,29 +57,28 @@ double turn_right(oi_t *sensor_data, double target_d){
     return sum;
 }
 
-double collision_detector(oi_t *sensor_data){
+void collision_detector(oi_t *sensor_data){
     if(sensor_data -> bumpLeft && sensor_data -> bumpRight){
-        moveForward(*sensor_data, -150);
-        turnLeft(*sensor_data, 90);
-        moveForward(*sensor_data, 250);
-        turnRight(*sensor_data, 90);
+        move_forward(sensor_data, -150);
+        turn_left(sensor_data, 90);
+        move_forward(sensor_data, 250);
+        turn_right(sensor_data, 90);
     }
 
     if(sensor_data -> bumpLeft){
-        moveForward(*sensor_data, -150);
-        turnRight(*sensor_data, 90);
-        moveForward(*sensor_data, 250);
-        turnLeft(*sensor_data, 90);
+        move_forward(sensor_data, -150);
+        turn_right(sensor_data, 90);
+        move_forward(sensor_data, 250);
+        turn_left(sensor_data, 90);
     }
 
     if(sensor_data -> bumpRight){
-        moveForward(*sensor_data, -150);
-        turnLeft(*sensor_data, 90);
-        moveForward(*sensor_data, 250);
-        turnRight(*sensor_data, 90);
+        move_forward(sensor_data, -150);
+        turn_left(sensor_data, 90);
+        move_forward(sensor_data, 250);
+        turn_right(sensor_data, 90);
 
     }
-
 
 }
 
