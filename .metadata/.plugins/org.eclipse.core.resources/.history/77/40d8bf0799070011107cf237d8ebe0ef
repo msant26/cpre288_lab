@@ -14,7 +14,7 @@ double turn_right(oi_t *sensor_data, double target_d);
 
 double turn_left(oi_t *sensor_data, double target_d);
 
-double collision_detector(oi_t *sensor_data);
+double collision_detector(oi_t *sensor_data)
 
 
 #endif /* MOVEMENT_H_ */
