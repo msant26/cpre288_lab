@@ -10,11 +10,13 @@
 
 double move_forward(oi_t *sensor_data, double distance_mm);
 
+double move_backwards(oi_t *sensor_data, double distance_mm);
+
 double turn_right(oi_t *sensor_data, double target_d);
 
 double turn_left(oi_t *sensor_data, double target_d);
 
-void collision_detector(oi_t *sensor_data);
+void collision_detector(oi_t *sensor_data, double* target);
 
 
 #endif /* MOVEMENT_H_ */

@@ -20,14 +20,24 @@ int main(void) {
 
     lcd_init();
 
-    int distance = 0;
-    while(distance < 2000){
-        oi_update(sensor_data);
-        distance += sensor_data -> distance;
-        oi_setWheels(150, 150);
-        collision_detector(sensor_data);
+    double target = 2000;
+    double distance = 0;
+    while(distance < target){
+//        while(!sensor_data -> bumpLeft && !sensor_data -> bumpRight && distance < target){
+//            oi_setWheels(100, 100);
+//            oi_update(sensor_data);
+//            distance += sensor_data -> distance;
+//            lcd_printf("%.2lf", distance);
+//        }
+        if (!sensor_data -> bumpLeft && !sensor_data -> bumpRight && distance < target){
+            oi_setWheels(100, 100);
+            oi_update(sensor_data);
+            distance += sensor_data -> distance;
+            lcd_printf("%.2lf", distance);
+            continue;
+        }
+        collision_detector(sensor_data, &target);
     }
-
     oi_free(sensor_data); // do this once at end of main()
     return 0;
 }

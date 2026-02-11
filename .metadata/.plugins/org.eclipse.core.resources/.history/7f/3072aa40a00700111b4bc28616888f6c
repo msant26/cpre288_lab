@@ -1,0 +1,35 @@
+/// Prints text as a rotating banner
+/**
+ * This program prints "Microcontrollers are lots of fun!" to the LCD screen
+ * in a rotating banner manner
+ * @author Michael Santiago
+ * @date 01/27/2026
+ *
+ * updated: phjones 9/3/2019
+ * Description: Added timer_init call, and including Timer.h
+ */
+
+#include "Timer.h"
+#include "lcd.h"
+#include "open_interface.h"
+#include "movement.h"
+
+int main(void) {
+    oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
+    oi_init(sensor_data); // do this only once at start of main()
+
+    lcd_init();
+
+    int distance = 0;
+    while(distance < 2000){
+        while(!sensor_data -> bumpLeft && !sensor_data -> bumpRight && distance < 2000){
+            oi_setWheels(100, 100);
+            oi_update(sensor_data);
+            distance += sensor_data -> distance;
+        }
+        collision_detector(sensor_data, distance);
+        distance -= 150;
+    }
+    oi_free(sensor_data); // do this once at end of main()
+    return 0;
+}

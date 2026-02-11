@@ -23,6 +23,22 @@ double move_forward(oi_t *sensor_data, double distance_mm){
     return sum;
 }
 
+double move_backwards(oi_t *sensor_data, double distance_mm){
+    oi_setWheels(-100,-100);
+    double sum = 0;
+    while (sum > distance_mm){
+        oi_update(sensor_data);
+        sum += sensor_data->distance;
+        lcd_printf("%.2lf", sum);
+
+        if(sum <= distance_mm * 0.8){
+            oi_setWheels(-50,-50);
+        }
+    }
+    oi_setWheels(0,0);
+    return sum;
+}
+
 double turn_left(oi_t *sensor_data, double target_d){
     oi_setWheels(30, -30);
     target_d *= 0.99;
@@ -57,27 +73,27 @@ double turn_right(oi_t *sensor_data, double target_d){
     return sum;
 }
 
-void collision_detector(oi_t *sensor_data){
+void collision_detector(oi_t *sensor_data, double* target){
+    *target += 150.0;
     if(sensor_data -> bumpLeft && sensor_data -> bumpRight){
-        move_forward(sensor_data, -150);
+        move_backwards(sensor_data, -150);
         turn_left(sensor_data, 90);
         move_forward(sensor_data, 250);
         turn_right(sensor_data, 90);
     }
 
     if(sensor_data -> bumpLeft){
-        move_forward(sensor_data, -150);
+        move_backwards(sensor_data, -150);
         turn_right(sensor_data, 90);
         move_forward(sensor_data, 250);
         turn_left(sensor_data, 90);
     }
 
     if(sensor_data -> bumpRight){
-        move_forward(sensor_data, -150);
+        move_backwards(sensor_data, -150);
         turn_left(sensor_data, 90);
         move_forward(sensor_data, 250);
         turn_right(sensor_data, 90);
-
     }
 
 }
