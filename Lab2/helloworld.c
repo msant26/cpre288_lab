@@ -26,12 +26,24 @@ int main(void) {
 
     // int i;
 
-   /* for (i=0; i<=3; i++){
-        move_forward(sensor_data, 500);
-        turn_right(sensor_data, 90);
+    // for (i=0; i<=3; i++){
+    //     move_forward(sensor_data, 500);
+    //     turn_right(sensor_data, 90);
+
+    // }
+
+    int distance = 0;
+    while(distance < 2000){
+        oi_update(*sensor_data);
+        //move_forward(*sensor_data, 2000);
+        oi_setWheels(150, 150);
+        collision_detector(sensor_data);
+
 
     }
-    */
+
+
+    
     oi_free(sensor_data); // do this once at end of main()
     return 0;
 }
