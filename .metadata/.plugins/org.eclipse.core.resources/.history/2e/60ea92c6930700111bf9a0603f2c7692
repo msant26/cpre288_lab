@@ -1,0 +1,59 @@
+/*
+ * movement.c
+ *
+ *  Created on: Feb 3, 2026
+ *      Author: msant
+ */
+#include "open_interface.h"
+#include "movement.h"
+
+double move_forward(oi_t *sensor_data, double distance_mm){
+    oi_setWheels(100,100);
+    double sum = 0;
+    while (sum < distance_mm){
+        oi_update(sensor_data);
+        sum += sensor_data->distance;
+        lcd_printf("%.2lf", sum);
+
+        if(sum >= distance_mm * 0.8){
+            oi_setWheels(50,50);
+        }
+    }
+    oi_setWheels(0,0);
+    return sum;
+}
+
+double turn_left(oi_t *sensor_data, double target_d){
+    oi_setWheels(30, -30);
+    target_d *= 0.97;
+        double sum = 0;
+        while (sum < target_d){
+           oi_update(sensor_data);
+           sum += sensor_data->angle;
+           lcd_printf("%.2lf", sum);
+
+           if(sum >= target_d * 0.8){
+               oi_setWheels(15, -15);
+           }
+        }
+        oi_setWheels(0,0);
+        return sum;
+}
+
+double turn_right(oi_t *sensor_data, double target_d){
+    oi_setWheels(-30, 30);
+    target_d *= 0.99;
+    double sum = 0;
+    while (sum < target_d){
+       oi_update(sensor_data);
+       sum += -(sensor_data->angle);
+       lcd_printf("%.2lf", -sum);
+
+       if(sum >= target_d * 0.8){
+           oi_setWheels(-15, 15);
+       }
+    }
+    oi_setWheels(0,0);
+    return sum;
+}
+
