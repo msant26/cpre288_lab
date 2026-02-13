@@ -20,15 +20,14 @@ int main(void) {
 
     lcd_init();
 
+    // sets forward distance to travel 
     double target = 2000;
     double distance = 0;
+
+    // executes until target distance is reached
     while(distance < target){
-//        while(!sensor_data -> bumpLeft && !sensor_data -> bumpRight && distance < target){
-//            oi_setWheels(100, 100);
-//            oi_update(sensor_data);
-//            distance += sensor_data -> distance;
-//            lcd_printf("%.2lf", distance);
-//        }
+
+        // moves forward if bumpers are not activated
         if (!sensor_data -> bumpLeft && !sensor_data -> bumpRight && distance < target){
             oi_setWheels(100, 100);
             oi_update(sensor_data);
