@@ -27,6 +27,8 @@ int main(void) {
     cyBot_uart_init();
     byte = cyBot_getByte();
 
+    lcd_printf("%c", byte);
+
     oi_free(sensor_data); // do this once at end of main()
     return 0;
 }
