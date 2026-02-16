@@ -29,6 +29,17 @@ int main(void) {
 
     lcd_printf("%c", byte);
 
+    char buffer[50];
+
+    sprintf(buffer, "Got an %c", byte);
+
+    for (int i=0;i<buffer.length;i++){
+        cyBot_sendByte(buffer.length[i]);
+    }
+
+    
+
+
     oi_free(sensor_data); // do this once at end of main()
     return 0;
 }
