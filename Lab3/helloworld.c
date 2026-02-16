@@ -17,6 +17,7 @@
 #include "cyBot_Scan.h"
 
 int byte;
+int i;
 
 int main(void) {
     oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
@@ -29,12 +30,13 @@ int main(void) {
 
     lcd_printf("%c", byte);
 
-    char buffer[50];
-
+    char buffer[8];
     sprintf(buffer, "Got an %c", byte);
 
-    for (int i=0;i<buffer.length;i++){
-        cyBot_sendByte(buffer.length[i]);
+    int length = sizeof(buffer) / sizeof(buffer[0]);
+
+    for (i=0;i<length;i++){
+        cyBot_sendByte(buffer[i]);
     }
 
     
