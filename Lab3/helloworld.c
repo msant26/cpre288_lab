@@ -26,6 +26,7 @@ int main(void) {
     lcd_init();
 
     cyBot_uart_init();
+    /*
     byte = cyBot_getByte();
 
     lcd_printf("%c", byte);
@@ -38,6 +39,11 @@ int main(void) {
     for (i=0;i<length;i++){
         cyBot_sendByte(buffer[i]);
     }
+    */
+
+    cyBOT_init_Scan(0B0100);
+
+
 
     
 
