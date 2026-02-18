@@ -48,6 +48,30 @@ int main(void) {
     right_calibration_value = 274750;
     left_calibration_value = 1225000;
 
+    int start = 45;
+    int end = 135;
+    int degree = start;
+
+    byte = cyBot_getByte();
+    if (byte == 'm') {
+        while(degree < end){
+            if (degree % 5){
+                char buffer[8];
+                sprintf(buffer, "Got an %c", byte);
+
+                int length = sizeof(buffer) / sizeof(buffer[0]);
+
+                for (i=0;i<length;i++){
+                    cyBot_sendByte(buffer[i]);
+                }
+
+            }
+            cyBOT_Scan(degree, &scan_data);
+            degree++;
+
+        }
+    }
+
     cyBOT_Scan(180, &scan_data);
     // cyBOT_SERVO_cal();
 
