@@ -18,10 +18,15 @@
 
 int byte;
 int i;
+float data;
+int start;
+int end;
+int degree;
+int length;
 
 int main(void) {
-    oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
-    oi_init(sensor_data); // do this only once at start of main()
+    //oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
+    //oi_init(sensor_data); // do this only once at start of main()
 
     cyBOT_Scan_t *scan_data = calloc(1, sizeof(cyBOT_Scan_t));
 
@@ -48,33 +53,35 @@ int main(void) {
     right_calibration_value = 274750;
     left_calibration_value = 1225000;
 
-    int start = 45;
-    int end = 135;
-    int degree = start;
-    double data = getScan->sound_dist
-    byte = cyBot_getByte();
+    start = 45;
+    end = 135;
+    degree = start;
+
+
+    while(byte != 'm'){
+        byte = cyBot_getByte();
+    }
     if (byte == 'm') {
         while(degree < end){
-            if (degree % 5){
-                char buffer[8];
-                sprintf(buffer, "%lf", data);
+            cyBOT_Scan(degree, scan_data);
+            data = scan_data->sound_dist;
+            if (degree % 5 == 0){
+                char buffer[30];
+                sprintf(buffer, "Angle: %d Ping: %.2f\r\n", degree, data);
 
-                int length = sizeof(buffer) / sizeof(buffer[0]);
+                length = strlen(buffer);
 
                 for (i=0;i<length;i++){
                     cyBot_sendByte(buffer[i]);
                 }
-
             }
-            cyBOT_Scan(degree, &scan_data);
             degree++;
-
         }
     }
 
-    cyBOT_Scan(180, &scan_data);
+    cyBOT_Scan(180, scan_data);
     // cyBOT_SERVO_cal();
 
-    oi_free(sensor_data); // do this once at end of main()
+    //oi_free(sensor_data); // do this once at end of main()
     return 0;
 }
