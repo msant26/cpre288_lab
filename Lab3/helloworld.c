@@ -51,13 +51,13 @@ int main(void) {
     int start = 45;
     int end = 135;
     int degree = start;
-
+    double data = getScan->sound_dist
     byte = cyBot_getByte();
     if (byte == 'm') {
         while(degree < end){
             if (degree % 5){
                 char buffer[8];
-                sprintf(buffer, "Got an %c", byte);
+                sprintf(buffer, "%lf", data);
 
                 int length = sizeof(buffer) / sizeof(buffer[0]);
 
