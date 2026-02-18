@@ -19,6 +19,7 @@
 int byte;
 int i;
 float data;
+float initialData;
 int start;
 int end;
 int degree;
@@ -62,9 +63,12 @@ int main(void) {
         byte = cyBot_getByte();
     }
     if (byte == 'm') {
+        cyBOT_Scan(degree, scan_data);
+        initialData = scan_data->sound_dist;
         while(degree < end){
             cyBOT_Scan(degree, scan_data);
             data = scan_data->sound_dist;
+            /*
             if (degree % 5 == 0){
                 char buffer[30];
                 sprintf(buffer, "Angle: %d Ping: %.2f\r\n", degree, data);
@@ -74,8 +78,18 @@ int main(void) {
                 for (i=0;i<length;i++){
                     cyBot_sendByte(buffer[i]);
                 }
+
             }
+            */
+            if (data ){
+
+            }
+
+
+
+            cyBOT_Scan(degree, &scan_data);
             degree++;
+
         }
     }
 
@@ -84,4 +98,18 @@ int main(void) {
 
     //oi_free(sensor_data); // do this once at end of main()
     return 0;
+}
+
+
+
+struct Object (int botNumber, int angleFound, int angleLost, float ping){
+    int number = botNumber;
+    int angleF = angleFound;
+    int angleL = angleLost;
+    float data = ping;
+    int radial = angleLost - angleFound;
+
+
+
+
 }
