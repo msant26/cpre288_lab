@@ -23,6 +23,8 @@ int main(void) {
     oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
     oi_init(sensor_data); // do this only once at start of main()
 
+    cyBOT_Scan_t *scan_data = calloc(1, sizeof(cyBOT_Scan_t));
+
     lcd_init();
 
     cyBot_uart_init();
@@ -41,12 +43,13 @@ int main(void) {
     }
     */
 
-    cyBOT_init_Scan(0B0100);
+    cyBOT_init_Scan(0b0111);
 
+    right_calibration_value = 274750;
+    left_calibration_value = 1225000;
 
-
-    
-
+    cyBOT_Scan(180, &scan_data);
+    // cyBOT_SERVO_cal();
 
     oi_free(sensor_data); // do this once at end of main()
     return 0;
