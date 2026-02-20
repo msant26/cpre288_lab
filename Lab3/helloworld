@@ -1,0 +1,13 @@
+#ifndef HELLOWORLD_H_
+#define HELLOWORLD_H_
+
+struct Object {
+    int number = botNumber;
+    int angleF = angleFound;
+    int angleL = angleLost;
+    float data = ping;
+    int radial = angleLost - angleFound;
+    int detected = radial / 2;
+}
+
+#endif /* HELLOWORLD */

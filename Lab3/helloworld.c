@@ -15,9 +15,15 @@
 #include "movement.h"
 #include "cyBot_uart.h"
 #include "cyBot_Scan.h"
+#include "helloworld.h"
 
 int byte, i, objNum, objDistance, objStart, objEnd, start, end, degree, length, onObj;
 float data, initialData;
+
+struct Object thinnest;
+struct Object curr;
+
+
 
 int main(void) {
     //oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
@@ -48,18 +54,17 @@ int main(void) {
     right_calibration_value = 274750;
     left_calibration_value = 1225000;
 
-    start = 45;
-    end = 135;
+    start = 0;
+    end = 180;
     degree = start;
     objNum = 0;
 
-    while(byte != 'm'){
-        byte = cyBot_getByte();
-    }
-    if (byte == 'm') {
-        Object thinnest;
-        Object curr;
+   // while(byte != 'm'){
+   //     byte = cyBot_getByte();
+   // }
 
+    //byte = cyBot_getByte();
+    //if (byte == 'm') {
         thinnest.radial = 180;
 
         cyBOT_Scan(degree, scan_data);
@@ -68,14 +73,14 @@ int main(void) {
             cyBOT_Scan(degree, scan_data);
             data = scan_data->sound_dist;
 
-            if (data < 100.0 && !onObj){
+            if (data < 15 && !onObj){
                 onObj = 1;
                 curr.number = objNum;
                 curr.angleF = degree;
                 curr.data = data;
             }
 
-            if(onObj && !((data < curr.data + 5) || (data > curr.data - 5))){
+            if(onObj && !((data < curr.data + 5) && (data > curr.data - 5))){
                 onObj = 0;
                 curr.angleL = degree;
                 if(curr.radial <= thinnest.radial){
@@ -86,12 +91,14 @@ int main(void) {
                 }
                 objNum++;
             }
-            degree++;
+            degree += 5;
 
         }
-    }
+    //}
 
-    cyBOT_Scan(180, scan_data);
+    lcd_printf("%d", thinnest.angleF);
+
+    cyBOT_Scan(thinnest.angleF, scan_data);
     // cyBOT_SERVO_cal();
 
     //oi_free(sensor_data); // do this once at end of main()
@@ -100,11 +107,4 @@ int main(void) {
 
 
 
-struct Object (int botNumber, int angleFound, int angleLost, float ping){
-    int number = botNumber;
-    int angleF = angleFound;
-    int angleL = angleLost;
-    float data = ping;
-    int radial = angleLost - angleFound;
-    int detected = radial / 2;
-}
+
