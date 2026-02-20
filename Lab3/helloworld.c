@@ -42,8 +42,9 @@ int main(void) {
 
     lcd_printf("%c", byte);
 
-    char buffer[8];
-    sprintf(buffer, "Got an %c", byte);
+    char buffer[100];
+    sprintf(buffer, "Object %d: Angle=%d deg, Dist=%.2f cm, Width=%d deg\r\n",
+        curr.number, curr.radial, curr.data, curr.width);
 
     int length = sizeof(buffer) / sizeof(buffer[0]);
 
@@ -108,6 +109,16 @@ int main(void) {
                 }
                 lcd_printf("Object Lost");
                 objNum++;
+            }
+            
+            char buffer[100];
+            sprintf(buffer, "Object %d: Angle=%d deg, Dist=%.2f cm, Width=%d deg\r\n",
+                curr.number, curr.radial, curr.data, curr.width);
+
+            int length = sizeof(buffer) / sizeof(buffer[0]);
+
+            for (i=0;i<length;i++){
+                cyBot_sendByte(buffer[i]);
             }
             degree+=2;
 
