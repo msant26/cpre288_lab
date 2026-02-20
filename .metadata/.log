@@ -10741,3 +10741,7 @@ java.nio.channels.ClosedByInterruptException
 !ENTRY com.ti.ccstudio.debug 1 0 2026-02-20 16:54:23.632
 !MESSAGE DS_ERROR: Error connecting to the target:
 Unable to communicate with the device. Please check your connection.
+
+!ENTRY com.ti.ccstudio.debug 1 0 2026-02-20 16:58:27.547
+!MESSAGE DS_ERROR: CORTEX_M4_0: Trouble Reading Memory Block at 0xaf7ff47f on Page 0 of Length 0x4: Debug Port error occurred.
+
