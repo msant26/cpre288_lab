@@ -23,7 +23,7 @@
 
 int main(void) {
 
-    int byte, objNum, start, end, degree, onObj;
+    int i, byte, objNum, start, end, degree, length, onObj;
     float data, initialData;
 
     struct Object thinnest;
@@ -106,19 +106,22 @@ int main(void) {
                     thinnest = curr;
                     lcd_printf("New Thinnest Object");
                 }
+
+                char buffer[65];
+                sprintf(buffer, "Object %d: Angle=%d deg, Dist=%.2f cm, Width=%d deg\r\n",
+                        objNum, curr.radial, curr.data, curr.width);
+
+                length = sizeof(buffer) / sizeof(buffer[0]);
+
+                for (i=0;i<length;i++){
+                    cyBot_sendByte(buffer[i]);
+                }
+
                 lcd_printf("Object Lost");
                 objNum++;
             }
 
-            char buffer[100];
-            sprintf(buffer, "Object %d: Angle=%d deg, Dist=%.2f cm, Width=%d deg\r\n",
-                curr.number, curr.radial, curr.data, curr.width);
 
-            int length = sizeof(buffer) / sizeof(buffer[0]);
-
-            for (i=0;i<length;i++){
-                cyBot_sendByte(buffer[i]);
-            }
             degree+=2;
         }
     }
