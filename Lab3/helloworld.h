@@ -7,7 +7,6 @@ struct Object {
     int angleL;
     float data;
     int radial;
-    int detected;
 };
 
 #endif /* HELLOWORLD */

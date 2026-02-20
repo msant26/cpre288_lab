@@ -17,15 +17,18 @@
 #include "cyBot_Scan.h"
 #include "helloworld.h"
 
-int byte, i, objNum, objDistance, objStart, objEnd, start, end, degree, length, onObj;
-float data, initialData;
 
-struct Object thinnest;
-struct Object curr;
 
 
 
 int main(void) {
+
+    int objNum, start, end, degree, onObj;
+    float data, initialData;
+
+    struct Object thinnest;
+    struct Object curr;
+
     //oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
     //oi_init(sensor_data); // do this only once at start of main()
 
@@ -57,6 +60,7 @@ int main(void) {
     start = 0;
     end = 180;
     degree = start;
+    onObj = 0;
     objNum = 0;
 
    // while(byte != 'm'){
@@ -66,6 +70,15 @@ int main(void) {
     //byte = cyBot_getByte();
     //if (byte == 'm') {
         thinnest.radial = 180;
+        thinnest.angleF = 0;
+        thinnest.angleL = 0;
+        thinnest.data = 0;
+
+        curr.radial = 0;
+        curr.angleF = 0;
+        curr.angleL = 0;
+        curr.data = 0;
+        curr.radial = 0;
 
         cyBOT_Scan(degree, scan_data);
         initialData = scan_data->sound_dist;
@@ -78,27 +91,30 @@ int main(void) {
                 curr.number = objNum;
                 curr.angleF = degree;
                 curr.data = data;
+                lcd_printf("Object Found");
             }
 
             if(onObj && !((data < curr.data + 5) && (data > curr.data - 5))){
                 onObj = 0;
                 curr.angleL = degree;
+                curr.radial = curr.angleL - curr.angleF;
                 if(curr.radial <= thinnest.radial){
                     thinnest.number = curr.number;
                     thinnest.angleF = curr.angleF;
                     thinnest.angleL = curr.angleL;
                     thinnest.data = curr.data;
+                    lcd_printf("Object Lost");
                 }
                 objNum++;
             }
-            degree += 5;
+            degree+=5;
 
         }
     //}
 
-    lcd_printf("%d", thinnest.angleF);
+    lcd_printf("Thinnest Object at: %d degrees", thinnest.radial);
 
-    cyBOT_Scan(thinnest.angleF, scan_data);
+    cyBOT_Scan(thinnest.radial, scan_data);
     // cyBOT_SERVO_cal();
 
     //oi_free(sensor_data); // do this once at end of main()
