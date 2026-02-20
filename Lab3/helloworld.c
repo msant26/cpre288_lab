@@ -23,7 +23,7 @@
 
 int main(void) {
 
-    int objNum, start, end, degree, onObj;
+    int byte, objNum, start, end, degree, onObj;
     float data, initialData;
 
     struct Object thinnest;
@@ -63,22 +63,24 @@ int main(void) {
     onObj = 0;
     objNum = 0;
 
-   // while(byte != 'm'){
-   //     byte = cyBot_getByte();
-   // }
+  // while(byte != 'm'){
+  //      byte = cyBot_getByte();
+   //}
 
-    //byte = cyBot_getByte();
-    //if (byte == 'm') {
+    byte = cyBot_getByte();
+    if (byte == 'm') {
         thinnest.radial = 180;
         thinnest.angleF = 0;
         thinnest.angleL = 0;
         thinnest.data = 0;
+        curr.width = 180;
 
         curr.radial = 0;
         curr.angleF = 0;
         curr.angleL = 0;
         curr.data = 0;
         curr.radial = 0;
+        curr.width = 180;
 
         cyBOT_Scan(degree, scan_data);
         initialData = scan_data->sound_dist;
@@ -86,7 +88,7 @@ int main(void) {
             cyBOT_Scan(degree, scan_data);
             data = scan_data->sound_dist;
 
-            if (data < 15 && !onObj){
+            if (data < 50 && !onObj){
                 onObj = 1;
                 curr.number = objNum;
                 curr.angleF = degree;
@@ -94,23 +96,23 @@ int main(void) {
                 lcd_printf("Object Found");
             }
 
-            if(onObj && !((data < curr.data + 5) && (data > curr.data - 5))){
+            //if(onObj && !((data < curr.data + 5) && (data > curr.data - 5))){
+            if(onObj && data >= 50){
                 onObj = 0;
                 curr.angleL = degree;
-                curr.radial = curr.angleL - curr.angleF;
-                if(curr.radial <= thinnest.radial){
-                    thinnest.number = curr.number;
-                    thinnest.angleF = curr.angleF;
-                    thinnest.angleL = curr.angleL;
-                    thinnest.data = curr.data;
-                    lcd_printf("Object Lost");
+                curr.radial = (curr.angleL + curr.angleF)/2;
+                curr.width = curr.angleL - curr.angleF;
+                if(curr.width <= thinnest.width){
+                    thinnest = curr;
+                    lcd_printf("New Thinnest Object");
                 }
+                lcd_printf("Object Lost");
                 objNum++;
             }
-            degree+=5;
+            degree+=2;
 
         }
-    //}
+    }
 
     lcd_printf("Thinnest Object at: %d degrees", thinnest.radial);
 
