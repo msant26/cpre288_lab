@@ -73,9 +73,8 @@ int main(void) {
         thinnest.angleF = 0;
         thinnest.angleL = 0;
         thinnest.data = 0;
-        curr.width = 180;
+        thinnest.width = 180;
 
-        curr.radial = 0;
         curr.angleF = 0;
         curr.angleL = 0;
         curr.data = 0;
@@ -88,7 +87,7 @@ int main(void) {
             cyBOT_Scan(degree, scan_data);
             data = scan_data->sound_dist;
 
-            if (data < 50 && !onObj){
+            if (data < 100 && !onObj){
                 onObj = 1;
                 curr.number = objNum;
                 curr.angleF = degree;
@@ -97,7 +96,7 @@ int main(void) {
             }
 
             //if(onObj && !((data < curr.data + 5) && (data > curr.data - 5))){
-            if(onObj && data >= 50){
+            if(onObj && data >= 100){
                 onObj = 0;
                 curr.angleL = degree;
                 curr.radial = (curr.angleL + curr.angleF)/2;
@@ -109,7 +108,7 @@ int main(void) {
                 lcd_printf("Object Lost");
                 objNum++;
             }
-            degree+=2;
+            degree++;
 
         }
     }
