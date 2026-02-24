@@ -522,3 +522,6 @@ java.lang.NullPointerException
 !ENTRY com.ti.ccstudio.debug 1 0 2026-02-24 14:42:21.148
 !MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: C:\Users\owenf718\cpre288_lab\Lab4\Debug\Lab4.out Could not open file
 
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-02-24 14:52:31.833
+!MESSAGE Indexed 'Lab5' (7 sources, 28 headers) in 0.223 sec: 1,412 declarations; 2,664 references; 0 unresolved inclusions; 1 syntax errors; 0 unresolved names (0%)
