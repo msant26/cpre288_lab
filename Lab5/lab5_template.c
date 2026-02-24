@@ -44,8 +44,8 @@ int main(void) {
 	GPIO_PORTB_DEN_R |= 0x03;
 	GPIO_PORTB_AFSEL_R |= 0x03;
 
-    GPIO_PORTB_PCTL_R &= FIXME;     // Force 0's in the desired locations
-    GPIO_PORTB_PCTL_R |= FIXME;     // Force 1's in the desired locations
+    GPIO_PORTB_PCTL_R &= 0xFFFFFFFF;     // Force 0's in the desired locations
+    GPIO_PORTB_PCTL_R |= 0xF0;     // Force 1's in the desired locations
 		 // Or see the notes for a coding alternative to assign a value to the PCTL field
 
     // (Uncomment ME for UART init part of lab)
@@ -80,38 +80,3 @@ int main(void) {
 	}
 
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
