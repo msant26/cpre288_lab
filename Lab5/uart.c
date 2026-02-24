@@ -15,7 +15,7 @@
 void uart_init(void){
 	//TODO
   //enable clock to GPIO port B
-  SYSCTL_RCGCGPIO_R |= ???
+  SYSCTL_RCGCGPIO_R |= 0x02
 
   //enable clock to UART1
   SYSCTL_RCGCUART_R |= ???
@@ -67,6 +67,8 @@ void uart_init(void){
 
 void uart_sendChar(char data){
 	//TODO
+    while ((UART1->FR & 0x20) != 0);
+    UART1->DR = sdata;
 }
 
 char uart_receive(void){
