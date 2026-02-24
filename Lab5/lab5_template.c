@@ -53,14 +53,62 @@ int main(void) {
 		// Remember servo calibration function and variables from Lab 3
 
 	// YOUR CODE HERE
-
+	char buffer[25]
+	int count = 0;
+	char c;
 
 	while(1)
 	{
+	    c = uart_receive();
 
+	    if (c == '\r' || count == 20){
+	        buffer[count] = '\0';
+	        lcd_printf("%s", buffer);
+	        count = 0;
+	    }else {
+	        buffer[count] = c;
+	        count++;
+
+	        lcd_printf("Count: %d\n%c", count, c);
+	    }
       // YOUR CODE HERE
 
 
 	}
 
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

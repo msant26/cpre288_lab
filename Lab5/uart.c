@@ -42,8 +42,8 @@ void uart_init(void){
 
   //set baud rate
   //note: to take effect, there must be a write to LCRH after these assignments
-  UART1_IBRD_R = iBRD;
-  UART1_FBRD_R = fBRD;
+  UART1_IBRD_R = 8;
+  UART1_FBRD_R = 44;
 
   //set frame, 8 data bits, 1 stop bit, no parity, no FIFO
   //note: this write to LCRH must be after the BRD assignments
@@ -71,6 +71,19 @@ void uart_sendChar(char data){
 
 char uart_receive(void){
 	//TODO
+    uint32_t ret;
+    char rdata;
+
+    while ((UART1->FR & 0x10) != 0){
+        ret = UART1->DR;
+        if (ret & 0xF00){
+            GPIOF->DATA = 0xF;
+        }else {
+            rdata = (char)(UART1->DR & 0xFF);
+        }
+        return rdata;
+    }
+
 }
 
 void uart_sendStr(const char *data){
