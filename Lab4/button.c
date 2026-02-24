@@ -41,7 +41,7 @@ void button_init() {
 	// listed below. You will learn more about additional steps in a later lab.
 
 	// 1) Turn on PORTE system clock, do not modify other clock enables
-	SYSCTL_RCGCGPIO_R |= (1 << 4);
+	SYSCTL_RCGCGPIO_R |= 0x10000;
 	// You may need to add a delay here of several clock cycles for the clock to start, e.g., execute a simple dummy assignment statement, such as "long delay = SYSCTL_RCGCGPIO_R".
   // Instead, use the PRGPIO register and busy-wait on the peripheral ready bit for PORTE.
    while ((SYSCTL_PRGPIO_R & 0x010000) == 0) {};
