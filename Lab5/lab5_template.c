@@ -37,12 +37,15 @@ int main(void) {
 	cyBot_uart_init_clean();  // Clean UART1 initialization, before running your UART1 GPIO init code
 
 	// Complete this code for configuring the GPIO PORTB part of UART1 initialization (your UART1 GPIO init code)
-     // SYSCTL_RCGCGPIO_R |= FIXME;
-	   // while ((SYSCTL_PRGPIO_R & FIXME) == 0) {};
-		 // GPIO_PORTB_DEN_R |= FIXME;
-		 // GPIO_PORTB_AFSEL_R |= FIXME;
-     // GPIO_PORTB_PCTL_R &= FIXME;     // Force 0's in the desired locations
-     // GPIO_PORTB_PCTL_R |= FIXME;     // Force 1's in the desired locations
+    SYSCTL_RCGCGPIO_R |= 0x02;
+
+	while ((SYSCTL_PRGPIO_R & 0x02) == 0) {};
+
+	GPIO_PORTB_DEN_R |= 0xFF;
+	GPIO_PORTB_AFSEL_R |= 0xFF;
+
+    GPIO_PORTB_PCTL_R &= FIXME;     // Force 0's in the desired locations
+    GPIO_PORTB_PCTL_R |= FIXME;     // Force 1's in the desired locations
 		 // Or see the notes for a coding alternative to assign a value to the PCTL field
 
     // (Uncomment ME for UART init part of lab)
