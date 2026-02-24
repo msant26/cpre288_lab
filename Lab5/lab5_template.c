@@ -41,8 +41,8 @@ int main(void) {
 
 	while ((SYSCTL_PRGPIO_R & 0x02) == 0) {};
 
-	GPIO_PORTB_DEN_R |= 0xFF;
-	GPIO_PORTB_AFSEL_R |= 0xFF;
+	GPIO_PORTB_DEN_R |= 0x03;
+	GPIO_PORTB_AFSEL_R |= 0x03;
 
     GPIO_PORTB_PCTL_R &= FIXME;     // Force 0's in the desired locations
     GPIO_PORTB_PCTL_R |= FIXME;     // Force 1's in the desired locations
