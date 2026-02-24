@@ -52,11 +52,13 @@ int main(void) {
 	cyBot_uart_init_last_half();  // Complete the UART device configuration
 
 		// Initialize the scan
-	cyBOT_init_Scan();
+	cyBOT_init_Scan(0b0111);
 		// Remember servo calibration function and variables from Lab 3
+    right_calibration_value = 274750;
+    left_calibration_value = 1225000;
 
 	// YOUR CODE HERE
-	char buffer[25]
+	char buffer[25];
 	int count = 0;
 	char c;
 

@@ -15,10 +15,10 @@
 void uart_init(void){
 	//TODO
   //enable clock to GPIO port B
-  SYSCTL_RCGCGPIO_R |= 0x02
+  SYSCTL_RCGCGPIO_R |= 0x02;
 
   //enable clock to UART1
-  SYSCTL_RCGCUART_R |= ???
+  SYSCTL_RCGCUART_R |= ???;
 
   //wait for GPIOB and UART1 peripherals to be ready
   while ((SYSCTL_PRGPIO_R & ???) == 0) {};
