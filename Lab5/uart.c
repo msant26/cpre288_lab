@@ -62,7 +62,7 @@ void uart_init(void){
   //Good to be explicit in your code
   //Be careful to not clear RX and TX enable bits
   //(either preserve if already set or set them)
-  UART1_CTL_R = ???
+  UART1_CTL_R = 0x0301;
 
 }
 
