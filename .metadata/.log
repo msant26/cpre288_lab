@@ -1705,3 +1705,7 @@ java.lang.Error: SWT Resource was not properly disposed
 	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:659)
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:596)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1467)
+
+!ENTRY com.ti.ccstudio.debug 1 0 2026-03-03 16:09:51.609
+!MESSAGE DS_ERROR: CORTEX_M4_0: GEL: Encountered a problem loading file: C:\Users\owenf718\cpre288_lab\Lab5\Debug\Lab5.out Could not open file
+
