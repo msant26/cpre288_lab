@@ -18,20 +18,21 @@ void uart_init(void){
   SYSCTL_RCGCGPIO_R |= 0x02;
 
   //enable clock to UART1
-  SYSCTL_RCGCUART_R |= ???
+  SYSCTL_RCGCUART_R |= 0x02;
 
   //wait for GPIOB and UART1 peripherals to be ready
-  while ((SYSCTL_PRGPIO_R & ???) == 0) {};
-  while ((SYSCTL_PRUART_R & ???) == 0) {};
+  while ((SYSCTL_PRGPIO_R & 0x02) == 0) {};
+  while ((SYSCTL_PRUART_R & 0x02) == 0) {};
 
   //enable alternate functions on port B pins
-  GPIO_PORTB_AFSEL_R |= ???
+  GPIO_PORTB_AFSEL_R |= 0x03;
 
   //enable digital functionality on port B pins
-  GPIO_PORTB_DEN_R |= ???
+  GPIO_PORTB_DEN_R |= 0x03;
 
   //enable UART1 Rx and Tx on port B pins
-  GPIO_PORTB_PCTL_R = ???
+  GPIO_PORTB_PCTL_R &= 0xFFFFFF00;
+  GPIO_PORTB_PCTL_R |= 0x00000011;
 
   //calculate baud rate
   uint16_t iBRD = 8; //use equations
