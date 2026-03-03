@@ -39,16 +39,16 @@ void uart_init(void){
   uint16_t fBRD = 44; //use equations
 
   //turn off UART1 while setting it up
-  UART1_CTL_R &= ???
+  UART1_CTL_R &= ~0x01;
 
   //set baud rate
   //note: to take effect, there must be a write to LCRH after these assignments
-  UART1_IBRD_R = ???;
-  UART1_FBRD_R = ???;
+  UART1_IBRD_R = 0x8;
+  UART1_FBRD_R = 0x2A;
 
   //set frame, 8 data bits, 1 stop bit, no parity, no FIFO
   //note: this write to LCRH must be after the BRD assignments
-  UART1_LCRH_R = ???
+  UART1_LCRH_R = 0x30;
 
   //use system clock as source
   //note from the datasheet UARTCCC register description:
