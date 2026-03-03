@@ -68,8 +68,8 @@ void uart_init(void){
 
 void uart_sendChar(char data){
 	//TODO
-    while ((UART1->FR & 0x20) != 0);
-    UART1->DR = sdata;
+    while ((UART1_FR_R & 0x20) != 0);
+    UART1_DR_R = data;
 }
 
 char uart_receive(void){
@@ -77,12 +77,12 @@ char uart_receive(void){
     uint32_t ret;
     char rdata;
 
-    while ((UART1->FR & 0x10) != 0){
-        ret = UART1->DR;
+    while ((UART1_FR_R & 0x10) != 0){
+        ret = UART1_DR_R;
         if (ret & 0xF00){
-            GPIOF->DATA = 0xF;
+            GPIO_PORTB_DATA_R = 0xF;
         }else {
-            rdata = (char)(UART1->DR & 0xFF);
+            rdata = (char)(UART1_DR_R & 0xFF);
         }
         return rdata;
     }
