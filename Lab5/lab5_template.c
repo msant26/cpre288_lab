@@ -14,8 +14,9 @@
 #include "timer.h"
 #include "lcd.h"
 
-#include "cyBot_uart.h"  // Functions for communicating between CyBot and Putty (via UART1)
+//#include "cyBot_uart.h"  // Functions for communicating between CyBot and Putty (via UART1)
                          // PuTTy: Baud=115200, 8 data bits, No Flow Control, No Parity, COM1
+#include "uart.h"
 
 #include "cyBot_Scan.h"  // Scan using CyBot servo and sensors
 
@@ -34,7 +35,7 @@ int main(void) {
 	uart_init();
 
   // (Uncomment ME for UART init part of lab)
-	cyBot_uart_init_clean();  // Clean UART1 initialization, before running your UART1 GPIO init code
+	//cyBot_uart_init_clean();  // Clean UART1 initialization, before running your UART1 GPIO init code
 
 	// Complete this code for configuring the GPIO PORTB part of UART1 initialization (your UART1 GPIO init code)
     SYSCTL_RCGCGPIO_R |= 0x02;
@@ -49,7 +50,7 @@ int main(void) {
 		 // Or see the notes for a coding alternative to assign a value to the PCTL field
 
     // (Uncomment ME for UART init part of lab)
-	cyBot_uart_init_last_half();  // Complete the UART device configuration
+	//cyBot_uart_init_last_half();  // Complete the UART device configuration
 
 		// Initialize the scan
 	cyBOT_init_Scan(0b0111);
@@ -66,6 +67,8 @@ int main(void) {
 	{
 	    c = uart_receive();
 
+	    lcd_printf("%c", c);
+	    /*
 	    if (c == '\r' || count == 20){
 	        buffer[count] = '\0';
 	        lcd_printf("%s", buffer);
@@ -76,6 +79,7 @@ int main(void) {
 
 	        lcd_printf("Count: %d\n%c", count, c);
 	    }
+	    */
       // YOUR CODE HERE
 
 

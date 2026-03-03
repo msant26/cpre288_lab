@@ -77,15 +77,15 @@ char uart_receive(void){
     uint32_t ret;
     char rdata;
 
-    while ((UART1_FR_R & 0x10) != 0){
-        ret = UART1_DR_R;
-        if (ret & 0xF00){
-            GPIO_PORTB_DATA_R = 0xF;
-        }else {
-            rdata = (char)(UART1_DR_R & 0xFF);
-        }
-        return rdata;
+    while ((UART1_FR_R & 0x10) != 0){}
+    ret = UART1_DR_R;
+    if (ret & 0xF00){
+        GPIO_PORTB_DATA_R = 0xF;
+    }else {
+        rdata = (char)(ret & 0xFF);
     }
+    return rdata;
+
 
 }
 
