@@ -35,6 +35,10 @@ void uart_init(void){
   GPIO_PORTB_PCTL_R |= 0x00000011;
 
   //calculate baud rate
+
+  // 16,000,000 / (16 * 115,200) = 8.68055
+  // (0.68055 * 64) + 0.5 = 44.055
+
   uint16_t iBRD = 8; //use equations
   uint16_t fBRD = 44; //use equations
 
@@ -48,7 +52,7 @@ void uart_init(void){
 
   //set frame, 8 data bits, 1 stop bit, no parity, no FIFO
   //note: this write to LCRH must be after the BRD assignments
-  UART1_LCRH_R = 0x30;
+  UART1_LCRH_R = 0x60;
 
   //use system clock as source
   //note from the datasheet UARTCCC register description:
@@ -80,5 +84,8 @@ char uart_receive(void){
 }
 
 void uart_sendStr(const char *data){
-	//TODO for reference see lcd_puts from lcd.c file
+    while (*data != '\0'){
+            uart_sendChar(*data);
+            data++;
+        }
 }

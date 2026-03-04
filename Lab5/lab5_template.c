@@ -32,55 +32,68 @@ int main(void) {
 	lcd_init();
 
   // initialize the cyBot UART1 before trying to use it
-	// uart_init();
+
 
   // (Uncomment ME for UART init part of lab)
-	// cyBot_uart_init_clean();  // Clean UART1 initialization, before running your UART1 GPIO init code
+	cyBot_uart_init_clean();  // Clean UART1 initialization, before running your UART1 GPIO init code
+
+	uart_init();
 
 	// Complete this code for configuring the GPIO PORTB part of UART1 initialization (your UART1 GPIO init code)
-    SYSCTL_RCGCGPIO_R |= 0x02;
 
-	while ((SYSCTL_PRGPIO_R & 0x02) == 0) {};
+	/*
+	 * SYSCTL_RCGCGPIO_R |= 0x02;
 
-	GPIO_PORTB_DEN_R |= 0x03;
-	GPIO_PORTB_AFSEL_R |= 0x03;
+    while ((SYSCTL_PRGPIO_R & 0x02) == 0) {};
+
+    GPIO_PORTB_DEN_R |= 0x03;
+    GPIO_PORTB_AFSEL_R |= 0x03;
 
     GPIO_PORTB_PCTL_R &= 0xFFFFFF00;     // Force 0's in the desired locations
     GPIO_PORTB_PCTL_R |= 0x00000011;     // Force 1's in the desired locations
-		 // Or see the notes for a coding alternative to assign a value to the PCTL field
+         // Or see the notes for a coding alternative to assign a value to the PCTL field
 
     // (Uncomment ME for UART init part of lab)
-	//cyBot_uart_init_last_half();  // Complete the UART device configuration
+    // cyBot_uart_init_last_half();  // Complete the UART device configuration
 
-		// Initialize the scan
-	cyBOT_init_Scan(0b0111);
-		// Remember servo calibration function and variables from Lab 3
+        // Initialize the scan
+    cyBOT_init_Scan(0b0111);
+        // Remember servo calibration function and variables from Lab 3
     right_calibration_value = 274750;
     left_calibration_value = 1225000;
+	 */
+
 
 	// YOUR CODE HERE
 	char buffer[25];
 	int count = 0;
 	char c = 'a';
 
+	uart_sendStr("Enter a String of Up 20 Characters");
+	uart_sendChar('\r');
+	uart_sendChar('\n');
 	while(1)
 	{
 	    c = uart_receive();
 
-	    lcd_printf("%c", c);
-	    /*
 	    if (c == '\r' || count == 20){
 	        buffer[count] = '\0';
 	        lcd_printf("%s", buffer);
 	        count = 0;
+	        uart_sendChar('\r');
+	        uart_sendChar('\n');
+	        uart_sendStr("Enter a New String of Up 20 Characters");
+	        uart_sendChar('\r');
+	        uart_sendChar('\n');
+
 	    }else {
 	        buffer[count] = c;
 	        count++;
 
+	        uart_sendChar(c);
+
 	        lcd_printf("Count: %d\n%c", count, c);
 	    }
-	    */
-      // YOUR CODE HERE
 
 
 	}
