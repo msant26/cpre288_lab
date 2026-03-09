@@ -17051,3 +17051,2417 @@ gmake: *** [uart-interrupt.obj] Error 1
 gmake: Target 'all' not remade because of errors.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 24: error #110: expression preceding parentheses of apparent call must have (pointer-to-) function type
+"../uart-interrupt.c", line 27: error #29: expected an expression
+"../uart-interrupt.c", line 43: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 44: error #29: expected an expression
+"../uart-interrupt.c", line 47: error #29: expected an expression
+"../uart-interrupt.c", line 51: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 56: error #29: expected an expression
+"../uart-interrupt.c", line 62: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 70: error #29: expected an expression
+"../uart-interrupt.c", line 76: error #29: expected an expression
+"../uart-interrupt.c", line 91: error #29: expected an expression
+"../uart-interrupt.c", line 93: error #66: expected a ";"
+"../uart-interrupt.c", line 101: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 112: error #29: expected an expression
+"../uart-interrupt.c", line 140: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 140: error #18: expected a ")"
+"../uart-interrupt.c", line 140: error #128: expected a statement
+"../uart-interrupt.c", line 110: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 141: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+13 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 30: error #29: expected an expression
+"../uart-interrupt.c", line 30: error #18: expected a ")"
+"../uart-interrupt.c", line 34: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 34: error #29: expected an expression
+"../uart-interrupt.c", line 43: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 44: error #29: expected an expression
+"../uart-interrupt.c", line 47: error #29: expected an expression
+"../uart-interrupt.c", line 51: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 56: error #29: expected an expression
+"../uart-interrupt.c", line 62: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 70: error #29: expected an expression
+"../uart-interrupt.c", line 76: error #29: expected an expression
+"../uart-interrupt.c", line 91: error #29: expected an expression
+"../uart-interrupt.c", line 93: error #66: expected a ";"
+"../uart-interrupt.c", line 101: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 112: error #29: expected an expression
+"../uart-interrupt.c", line 140: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 140: error #18: expected a ")"
+"../uart-interrupt.c", line 140: error #128: expected a statement
+"../uart-interrupt.c", line 110: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 141: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+14 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 34: error #29: expected an expression
+"../uart-interrupt.c", line 43: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 44: error #29: expected an expression
+"../uart-interrupt.c", line 47: error #29: expected an expression
+"../uart-interrupt.c", line 51: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 56: error #29: expected an expression
+"../uart-interrupt.c", line 62: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 70: error #29: expected an expression
+"../uart-interrupt.c", line 76: error #29: expected an expression
+"../uart-interrupt.c", line 91: error #29: expected an expression
+"../uart-interrupt.c", line 93: error #66: expected a ";"
+"../uart-interrupt.c", line 101: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 112: error #29: expected an expression
+"../uart-interrupt.c", line 140: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 140: error #18: expected a ")"
+"../uart-interrupt.c", line 140: error #128: expected a statement
+"../uart-interrupt.c", line 110: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 141: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+12 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 37: error #29: expected an expression
+"../uart-interrupt.c", line 43: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 44: error #29: expected an expression
+"../uart-interrupt.c", line 47: error #29: expected an expression
+"../uart-interrupt.c", line 51: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 56: error #29: expected an expression
+"../uart-interrupt.c", line 62: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 70: error #29: expected an expression
+"../uart-interrupt.c", line 76: error #29: expected an expression
+"../uart-interrupt.c", line 91: error #29: expected an expression
+"../uart-interrupt.c", line 93: error #66: expected a ";"
+"../uart-interrupt.c", line 101: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 112: error #29: expected an expression
+"../uart-interrupt.c", line 140: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 140: error #18: expected a ")"
+"../uart-interrupt.c", line 140: error #128: expected a statement
+"../uart-interrupt.c", line 110: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 141: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+12 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 40: error #29: expected an expression
+"../uart-interrupt.c", line 43: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 44: error #29: expected an expression
+"../uart-interrupt.c", line 47: error #29: expected an expression
+"../uart-interrupt.c", line 51: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 56: error #29: expected an expression
+"../uart-interrupt.c", line 62: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 70: error #29: expected an expression
+"../uart-interrupt.c", line 76: error #29: expected an expression
+"../uart-interrupt.c", line 91: error #29: expected an expression
+"../uart-interrupt.c", line 93: error #66: expected a ";"
+"../uart-interrupt.c", line 101: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 112: error #29: expected an expression
+"../uart-interrupt.c", line 140: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 140: error #18: expected a ")"
+"../uart-interrupt.c", line 140: error #128: expected a statement
+"../uart-interrupt.c", line 110: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 141: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+12 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 44: error #29: expected an expression
+"../uart-interrupt.c", line 45: error #29: expected an expression
+"../uart-interrupt.c", line 48: error #29: expected an expression
+"../uart-interrupt.c", line 52: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 57: error #29: expected an expression
+"../uart-interrupt.c", line 63: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 71: error #29: expected an expression
+"../uart-interrupt.c", line 77: error #29: expected an expression
+"../uart-interrupt.c", line 92: error #29: expected an expression
+"../uart-interrupt.c", line 94: error #66: expected a ";"
+"../uart-interrupt.c", line 102: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 113: error #29: expected an expression
+"../uart-interrupt.c", line 141: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 141: error #18: expected a ")"
+"../uart-interrupt.c", line 141: error #128: expected a statement
+"../uart-interrupt.c", line 111: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 142: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+12 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 48: error #29: expected an expression
+"../uart-interrupt.c", line 52: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 57: error #29: expected an expression
+"../uart-interrupt.c", line 63: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 71: error #29: expected an expression
+"../uart-interrupt.c", line 77: error #29: expected an expression
+"../uart-interrupt.c", line 92: error #29: expected an expression
+"../uart-interrupt.c", line 94: error #66: expected a ";"
+"../uart-interrupt.c", line 44: warning #179-D: variable "iBRD" was declared but never referenced
+"../uart-interrupt.c", line 102: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 113: error #29: expected an expression
+"../uart-interrupt.c", line 141: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 141: error #18: expected a ")"
+"../uart-interrupt.c", line 141: error #128: expected a statement
+"../uart-interrupt.c", line 111: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 142: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+10 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 57: error #29: expected an expression
+"../uart-interrupt.c", line 63: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 71: error #29: expected an expression
+"../uart-interrupt.c", line 77: error #29: expected an expression
+"../uart-interrupt.c", line 92: error #29: expected an expression
+"../uart-interrupt.c", line 94: error #66: expected a ";"
+"../uart-interrupt.c", line 102: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 113: error #29: expected an expression
+"../uart-interrupt.c", line 141: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 141: error #18: expected a ")"
+"../uart-interrupt.c", line 141: error #128: expected a statement
+"../uart-interrupt.c", line 111: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 142: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+9 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 57: error #29: expected an expression
+"../uart-interrupt.c", line 63: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 71: error #29: expected an expression
+"../uart-interrupt.c", line 77: error #29: expected an expression
+"../uart-interrupt.c", line 92: error #29: expected an expression
+"../uart-interrupt.c", line 94: error #66: expected a ";"
+"../uart-interrupt.c", line 102: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 113: error #29: expected an expression
+"../uart-interrupt.c", line 141: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 141: error #18: expected a ")"
+"../uart-interrupt.c", line 141: error #128: expected a statement
+"../uart-interrupt.c", line 111: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 142: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+9 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 71: error #29: expected an expression
+"../uart-interrupt.c", line 77: error #29: expected an expression
+"../uart-interrupt.c", line 92: error #29: expected an expression
+"../uart-interrupt.c", line 94: error #66: expected a ";"
+"../uart-interrupt.c", line 102: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 113: error #29: expected an expression
+"../uart-interrupt.c", line 141: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 141: error #18: expected a ")"
+"../uart-interrupt.c", line 141: error #128: expected a statement
+"../uart-interrupt.c", line 111: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 142: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+8 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 77: error #29: expected an expression
+"../uart-interrupt.c", line 92: error #29: expected an expression
+"../uart-interrupt.c", line 94: error #66: expected a ";"
+"../uart-interrupt.c", line 102: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 113: error #29: expected an expression
+"../uart-interrupt.c", line 141: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 141: error #18: expected a ")"
+"../uart-interrupt.c", line 141: error #128: expected a statement
+"../uart-interrupt.c", line 111: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 142: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+7 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 77: error #29: expected an expression
+"../uart-interrupt.c", line 92: error #29: expected an expression
+"../uart-interrupt.c", line 94: error #66: expected a ";"
+"../uart-interrupt.c", line 102: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 113: error #29: expected an expression
+"../uart-interrupt.c", line 141: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 141: error #18: expected a ")"
+"../uart-interrupt.c", line 141: error #128: expected a statement
+"../uart-interrupt.c", line 111: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 142: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+7 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 77: error #29: expected an expression
+"../uart-interrupt.c", line 92: error #29: expected an expression
+"../uart-interrupt.c", line 94: error #66: expected a ";"
+"../uart-interrupt.c", line 102: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 113: error #29: expected an expression
+"../uart-interrupt.c", line 141: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 141: error #18: expected a ")"
+"../uart-interrupt.c", line 141: error #128: expected a statement
+"../uart-interrupt.c", line 111: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 142: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+7 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 77: error #29: expected an expression
+"../uart-interrupt.c", line 92: error #29: expected an expression
+"../uart-interrupt.c", line 94: error #66: expected a ";"
+"../uart-interrupt.c", line 102: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 113: error #29: expected an expression
+"../uart-interrupt.c", line 141: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 141: error #18: expected a ")"
+"../uart-interrupt.c", line 141: error #128: expected a statement
+"../uart-interrupt.c", line 111: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 142: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+7 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 92: error #29: expected an expression
+"../uart-interrupt.c", line 94: error #66: expected a ";"
+"../uart-interrupt.c", line 102: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 113: error #29: expected an expression
+"../uart-interrupt.c", line 141: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 141: error #18: expected a ")"
+"../uart-interrupt.c", line 141: error #128: expected a statement
+"../uart-interrupt.c", line 111: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 142: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+6 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 102: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 113: error #29: expected an expression
+"../uart-interrupt.c", line 141: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 141: error #18: expected a ")"
+"../uart-interrupt.c", line 141: error #128: expected a statement
+"../uart-interrupt.c", line 111: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 142: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+4 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 103: warning #994-D: missing return statement at end of non-void function "uart_receive"
+"../uart-interrupt.c", line 114: error #29: expected an expression
+"../uart-interrupt.c", line 142: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 142: error #18: expected a ")"
+"../uart-interrupt.c", line 142: error #128: expected a statement
+"../uart-interrupt.c", line 112: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 143: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+4 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 125: error #29: expected an expression
+"../uart-interrupt.c", line 153: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 153: error #18: expected a ")"
+"../uart-interrupt.c", line 153: error #128: expected a statement
+"../uart-interrupt.c", line 123: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 154: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+4 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 125: error #29: expected an expression
+"../uart-interrupt.c", line 153: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 153: error #18: expected a ")"
+"../uart-interrupt.c", line 153: error #128: expected a statement
+"../uart-interrupt.c", line 123: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 154: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+4 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 23: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 125: error #29: expected an expression
+"../uart-interrupt.c", line 153: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 153: error #18: expected a ")"
+"../uart-interrupt.c", line 153: error #128: expected a statement
+"../uart-interrupt.c", line 123: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 154: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+4 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 125: error #29: expected an expression
+"../uart-interrupt.c", line 153: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 153: error #18: expected a ")"
+"../uart-interrupt.c", line 153: error #128: expected a statement
+"../uart-interrupt.c", line 123: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 154: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+4 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 125: error #29: expected an expression
+"../uart-interrupt.c", line 153: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 153: error #18: expected a ")"
+"../uart-interrupt.c", line 153: error #128: expected a statement
+"../uart-interrupt.c", line 123: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 154: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+4 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 125: error #29: expected an expression
+"../uart-interrupt.c", line 153: warning #12-D: parsing restarts here after previous syntax error
+"../uart-interrupt.c", line 153: error #18: expected a ")"
+"../uart-interrupt.c", line 153: error #128: expected a statement
+"../uart-interrupt.c", line 123: warning #179-D: variable "byte_received" was declared but never referenced
+"../uart-interrupt.c", line 154: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+4 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 133: warning #515-D: a value of type "char (*)(void)" cannot be assigned to an entity of type "char"
+Finished building: "../uart-interrupt.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:147: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:143: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart.d_raw"  "../uart.c"
+Finished building: "../uart.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+Finished building: "../uart-interrupt.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+Finished building: "../uart-interrupt.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'lab6-interrupt_template.obj' failed
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab6-interrupt_template.c", line 43: error #66: expected a ";"
+"../lab6-interrupt_template.c", line 56: warning #12-D: parsing restarts here after previous syntax error
+1 error detected in the compilation of "../lab6-interrupt_template.c".
+gmake: *** [lab6-interrupt_template.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab6.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab6.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab6.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab6.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab6.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab6.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab6.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab6.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab6.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab6.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'lab6-interrupt_template.obj' failed
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab6-interrupt_template.c", line 49: error #29: expected an expression
+"../lab6-interrupt_template.c", line 45: warning #179-D: variable "count" was declared but never referenced
+1 error detected in the compilation of "../lab6-interrupt_template.c".
+gmake: *** [lab6-interrupt_template.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'lab6-interrupt_template.obj' failed
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab6-interrupt_template.c", line 49: error #29: expected an expression
+1 error detected in the compilation of "../lab6-interrupt_template.c".
+gmake: *** [lab6-interrupt_template.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab3 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab3.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab4 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab4.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab5 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab5.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab6.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab6.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab6.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab6.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab6.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 24 all -O 
+ 
+gmake[1]: 'Lab6.out' is up to date.
+
+**** Build Finished ****

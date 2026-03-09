@@ -43,6 +43,10 @@ void uart_sendChar(char data);
 // Not used with interrupts; see UART1_Handler
 char uart_receive(void);
 
+// CyBot receives a byte from PuTTY without blocking
+// returns byte that was received by UART1
+char uart_receive_nonblocking(void);
+
 // Send a string over UART1
 // Sends each char in the string one at a time
 void uart_sendStr(const char *data);

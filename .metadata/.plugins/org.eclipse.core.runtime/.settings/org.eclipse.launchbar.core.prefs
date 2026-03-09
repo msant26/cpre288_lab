@@ -9,3 +9,4 @@ org.eclipse.launchbar.core.descriptorType.default\:Lab2/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Lab3/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Lab4/activeLaunchMode=run
 org.eclipse.launchbar.core.descriptorType.default\:Lab5/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Lab6/activeLaunchMode=debug
