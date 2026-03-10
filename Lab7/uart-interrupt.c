@@ -49,8 +49,8 @@ void uart_interrupt_init(void){
 
   //set baud rate
   //note: to take effect, there must be a write to LCRH after these assignments
-  UART1_IBRD_R |= iBRD;
-  UART1_FBRD_R |= fBRD;
+  UART1_IBRD_R = iBRD;
+  UART1_FBRD_R = fBRD;
 
   //set frame, 8 data bits, 1 stop bit, no parity, no FIFO
   //note: this write to LCRH must be after the BRD assignments
