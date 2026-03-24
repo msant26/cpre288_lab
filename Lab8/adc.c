@@ -7,9 +7,6 @@
 #include <adc.h>
 
 void adc_init(){
-
-<<<<<<< HEAD
-=======
     // Sets up GPIO
     SYSCTL_RCGCGPIO_R |= 0x02;
 
@@ -39,9 +36,6 @@ void adc_init(){
 
     // Enables SS3
     ADC0_ACTSS_R |= 0x08;
-
->>>>>>> f5c58f4 (adc_init)
-
 }
 
 uint16_t adc_read(){
