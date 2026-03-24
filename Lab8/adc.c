@@ -15,7 +15,7 @@ void adc_init(){
     // Enable GPIO functions and analog
     GPIO_PORTB_AFSEL_R |= 0x10;
     GPIO_PORTB_DEN_R &= ~0x10;
-    GPIO_PORT_B_AMSEL_R |= 0x10;
+    GPIO_PORTB_AMSEL_R |= 0x10;
 
     // Enables ADC clock
     SYSCTL_RCGCADC_R |= 0x01;
@@ -46,7 +46,7 @@ uint16_t adc_read(){
 
     while((ADC0_RIS_R & 0x08) == 0);
 
-    adc_value = ADC0_SSFIFO3_R & 0xFFF;
+    result = ADC0_SSFIFO3_R & 0xFFF;
 
     ADC0_ISC_R = 0x08;
 

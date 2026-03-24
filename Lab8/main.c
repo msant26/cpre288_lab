@@ -12,30 +12,51 @@
 #include <adc.h>
 #include "Timer.h"
 #include "lcd.h"
+#include "cyBot_Scan.h"
+#include "cyBot_uart.h"
+#include <math.h>
 
 int main(void) {
-    oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
-    oi_init(sensor_data); // do this only once at start of main()
 
     lcd_init();
+    timer_init();
+    adc_init();
 
-    // sets forward distance to travel 
-    double target = 2000;
-    double distance = 0;
+    cyBOT_Scan_t *scan_data = calloc(1, sizeof(cyBOT_Scan_t));
+    cyBOT_init_Scan(0b0111);
 
-    // executes until target distance is reached
-    while(distance < target){
 
-        // moves forward if bumpers are not activated
-        if (!sensor_data -> bumpLeft && !sensor_data -> bumpRight && distance < target){
-            oi_setWheels(100, 100);
-            oi_update(sensor_data);
-            distance += sensor_data -> distance;
-            lcd_printf("%.2lf", distance);
-            continue;
+    right_calibration_value = 285250;
+    left_calibration_value = 1277500;
+
+
+    int start = 90;
+    int degree = start;
+
+    double samples = 0;
+    double result = 0;
+    double dist = 0;
+    int i=0;
+
+    cyBOT_Scan(degree, scan_data);
+    while(1){
+
+        cyBOT_Scan(degree, scan_data);
+
+
+
+        for (i=0; i<16; i++){
+            uint16_t value = adc_read();
+            dist = 1.56e7 * pow(value, -1.92);
+            samples += dist;
         }
-        collision_detector(sensor_data, &target);
+        result = samples / 16;
+        samples = 0;
+
+        lcd_printf("Distance: %.2lf", result);
+
+
     }
-    oi_free(sensor_data); // do this once at end of main()
-    return 0;
+
+
 }
