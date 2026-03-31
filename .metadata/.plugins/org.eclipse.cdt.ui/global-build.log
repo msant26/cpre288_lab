@@ -23765,3 +23765,2268 @@ Finished building target: "Lab8.out"
 gmake[1]: 'Lab8.out' is up to date.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'lab7main copy.obj' failed
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 62: error #29: expected an expression
+"../lab7main copy.c", line 62: warning #551-D: variable "i" is used before its value is set
+"../lab7main copy.c", line 79: error #29: expected an expression
+"../lab7main copy.c", line 27: warning #179-D: variable "pingData" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "index" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "irTotal" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "pingTotal" was declared but never referenced
+"../lab7main copy.c", line 28: warning #179-D: variable "irDataCM" was declared but never referenced
+"../lab7main copy.c", line 30: warning #179-D: variable "byte" was declared but never referenced
+"../lab7main copy.c", line 30: warning #179-D: variable "length" was declared but never referenced
+"../lab7main copy.c", line 31: warning #179-D: variable "data" was declared but never referenced
+"../lab7main copy.c", line 33: warning #179-D: variable "irDataArr" was declared but never referenced
+"../lab7main copy.c", line 34: warning #179-D: variable "pingDataArr" was declared but never referenced
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 36: warning #552-D: variable "degreeLostArr" was set but never used
+"../lab7main copy.c", line 38: warning #552-D: variable "curr" was set but never used
+2 errors detected in the compilation of "../lab7main copy.c".
+gmake: *** [lab7main copy.obj] Error 1
+Building file: "../button.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="button.d_raw"  "../button.c"
+Finished building: "../button.c"
+ 
+Building file: "../Timer.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Timer.d_raw"  "../Timer.c"
+Finished building: "../Timer.c"
+ 
+Building file: "../functions.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="functions.d_raw"  "../functions.c"
+Finished building: "../functions.c"
+ 
+Building file: "../lcd.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lcd.d_raw"  "../lcd.c"
+Finished building: "../lcd.c"
+ 
+Building file: "../lab7main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main.d_raw"  "../lab7main.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main.c", line 60: warning #551-D: variable "degree" is used before its value is set
+"../lab7main.c", line 27: warning #179-D: variable "index" was declared but never referenced
+"../lab7main.c", line 27: warning #179-D: variable "irTotal" was declared but never referenced
+"../lab7main.c", line 27: warning #179-D: variable "pingTotal" was declared but never referenced
+"../lab7main.c", line 30: warning #179-D: variable "byte" was declared but never referenced
+"../lab7main.c", line 31: warning #552-D: variable "initialData" was set but never used
+"../lab7main.c", line 33: warning #552-D: variable "irDataArr" was set but never used
+"../lab7main.c", line 34: warning #552-D: variable "pingDataArr" was set but never used
+Finished building: "../lab7main.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building file: "../movement.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="movement.d_raw"  "../movement.c"
+Finished building: "../movement.c"
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+Finished building: "../uart-interrupt.c"
+ 
+Building file: "../uart.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart.d_raw"  "../uart.c"
+Finished building: "../uart.c"
+ 
+Building file: "../open_interface.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="open_interface.d_raw"  "../open_interface.c"
+"../open_interface.c", line 356: warning #179-D: variable "charging_state" was declared but never referenced
+Finished building: "../open_interface.c"
+ 
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../adc.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab8" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="adc.d_raw"  "../adc.c"
+Finished building: "../adc.c"
+ 
+Building file: "../Timer.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab8" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Timer.d_raw"  "../Timer.c"
+Finished building: "../Timer.c"
+ 
+Building file: "../lcd.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab8" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lcd.d_raw"  "../lcd.c"
+Finished building: "../lcd.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab8" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab8" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "Lab8.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab8.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab8_linkInfo.xml" --rom_model -o "Lab8.out" "./Timer.obj" "./adc.obj" "./lcd.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab8.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../adc.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="adc.d_raw"  "../adc.c"
+Finished building: "../adc.c"
+ 
+Building file: "../Timer.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Timer.d_raw"  "../Timer.c"
+Finished building: "../Timer.c"
+ 
+Building file: "../lcd.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lcd.d_raw"  "../lcd.c"
+Finished building: "../lcd.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building file: "../main.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="main.d_raw"  "../main.c"
+Finished building: "../main.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lcd.obj" "./main.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'lab7main copy.obj' failed
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 38: error #102: "i" has already been declared in the current scope
+"../lab7main copy.c", line 27: warning #179-D: variable "pingData" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "i" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "index" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "irTotal" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "pingTotal" was declared but never referenced
+"../lab7main copy.c", line 28: warning #179-D: variable "irDataCM" was declared but never referenced
+"../lab7main copy.c", line 30: warning #179-D: variable "byte" was declared but never referenced
+"../lab7main copy.c", line 30: warning #179-D: variable "length" was declared but never referenced
+"../lab7main copy.c", line 31: warning #179-D: variable "data" was declared but never referenced
+"../lab7main copy.c", line 33: warning #179-D: variable "irDataArr" was declared but never referenced
+"../lab7main copy.c", line 34: warning #179-D: variable "pingDataArr" was declared but never referenced
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 36: warning #552-D: variable "degreeLostArr" was set but never used
+"../lab7main copy.c", line 40: warning #552-D: variable "curr" was set but never used
+1 error detected in the compilation of "../lab7main copy.c".
+gmake: *** [lab7main copy.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 27: warning #179-D: variable "pingData" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "index" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "irTotal" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "pingTotal" was declared but never referenced
+"../lab7main copy.c", line 28: warning #179-D: variable "irDataCM" was declared but never referenced
+"../lab7main copy.c", line 30: warning #179-D: variable "byte" was declared but never referenced
+"../lab7main copy.c", line 30: warning #179-D: variable "length" was declared but never referenced
+"../lab7main copy.c", line 31: warning #179-D: variable "data" was declared but never referenced
+"../lab7main copy.c", line 33: warning #179-D: variable "irDataArr" was declared but never referenced
+"../lab7main copy.c", line 34: warning #179-D: variable "pingDataArr" was declared but never referenced
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 36: warning #552-D: variable "degreeLostArr" was set but never used
+"../lab7main copy.c", line 39: warning #552-D: variable "curr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 27: warning #179-D: variable "pingData" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "index" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "irTotal" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "pingTotal" was declared but never referenced
+"../lab7main copy.c", line 28: warning #179-D: variable "irDataCM" was declared but never referenced
+"../lab7main copy.c", line 30: warning #179-D: variable "byte" was declared but never referenced
+"../lab7main copy.c", line 30: warning #179-D: variable "length" was declared but never referenced
+"../lab7main copy.c", line 31: warning #179-D: variable "data" was declared but never referenced
+"../lab7main copy.c", line 33: warning #179-D: variable "irDataArr" was declared but never referenced
+"../lab7main copy.c", line 34: warning #179-D: variable "pingDataArr" was declared but never referenced
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 36: warning #552-D: variable "degreeLostArr" was set but never used
+"../lab7main copy.c", line 39: warning #552-D: variable "curr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 27: warning #179-D: variable "pingData" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "index" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "irTotal" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "pingTotal" was declared but never referenced
+"../lab7main copy.c", line 28: warning #179-D: variable "irDataCM" was declared but never referenced
+"../lab7main copy.c", line 30: warning #179-D: variable "byte" was declared but never referenced
+"../lab7main copy.c", line 30: warning #179-D: variable "length" was declared but never referenced
+"../lab7main copy.c", line 31: warning #179-D: variable "data" was declared but never referenced
+"../lab7main copy.c", line 33: warning #179-D: variable "irDataArr" was declared but never referenced
+"../lab7main copy.c", line 34: warning #179-D: variable "pingDataArr" was declared but never referenced
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 36: warning #552-D: variable "degreeLostArr" was set but never used
+"../lab7main copy.c", line 39: warning #552-D: variable "curr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 27: warning #179-D: variable "pingData" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "index" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "irTotal" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "pingTotal" was declared but never referenced
+"../lab7main copy.c", line 28: warning #179-D: variable "irDataCM" was declared but never referenced
+"../lab7main copy.c", line 30: warning #179-D: variable "byte" was declared but never referenced
+"../lab7main copy.c", line 33: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeLostArr" was set but never used
+"../lab7main copy.c", line 37: warning #552-D: variable "curr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 27: warning #179-D: variable "pingData" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "irTotal" was declared but never referenced
+"../lab7main copy.c", line 27: warning #179-D: variable "pingTotal" was declared but never referenced
+"../lab7main copy.c", line 32: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 33: warning #552-D: variable "degreeLostArr" was set but never used
+"../lab7main copy.c", line 36: warning #552-D: variable "curr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 32: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 33: warning #552-D: variable "degreeLostArr" was set but never used
+"../lab7main copy.c", line 36: warning #552-D: variable "curr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'lab7main copy.obj' failed
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 53: error #20: identifier "curr" is undefined
+"../lab7main copy.c", line 32: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 33: warning #552-D: variable "degreeLostArr" was set but never used
+1 error detected in the compilation of "../lab7main copy.c".
+gmake: *** [lab7main copy.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 32: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 33: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 32: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 33: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 32: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 33: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 32: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 33: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 32: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 33: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 32: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 33: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 32: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 33: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 32: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 33: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'lab7main copy.obj' failed
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 50: warning #225-D: function "uart_init" declared implicitly
+"../lab7main copy.c", line 81: error #20: identifier "uart_sendStr" is undefined
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+1 error detected in the compilation of "../lab7main copy.c".
+gmake: *** [lab7main copy.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'lab7main copy.obj' failed
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 79: error #20: identifier "uart_sendStr" is undefined
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+1 error detected in the compilation of "../lab7main copy.c".
+gmake: *** [lab7main copy.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+"../lab7main copy.c", line 37: warning #179-D: variable "buffer" was declared but never referenced
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'lab7main copy.obj' failed
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 82: error #20: identifier "length" is undefined
+"../lab7main copy.c", line 83: error #29: expected an expression
+"../lab7main copy.c", line 83: error #66: expected a ";"
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+3 errors detected in the compilation of "../lab7main copy.c".
+gmake: *** [lab7main copy.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'lab7main copy.obj' failed
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 83: error #29: expected an expression
+"../lab7main copy.c", line 83: error #66: expected a ";"
+"../lab7main copy.c", line 29: warning #552-D: variable "length" was set but never used
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+2 errors detected in the compilation of "../lab7main copy.c".
+gmake: *** [lab7main copy.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'lab7main copy.obj' failed
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 83: error #29: expected an expression
+"../lab7main copy.c", line 83: error #66: expected a ";"
+"../lab7main copy.c", line 29: warning #552-D: variable "length" was set but never used
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+2 errors detected in the compilation of "../lab7main copy.c".
+gmake: *** [lab7main copy.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'lab7main copy.obj' failed
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 86: warning #169-D: argument of type "char *" is incompatible with parameter of type "char"
+"../lab7main copy.c", line 87: error #66: expected a ";"
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+1 error detected in the compilation of "../lab7main copy.c".
+gmake: *** [lab7main copy.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 86: warning #169-D: argument of type "char *" is incompatible with parameter of type "char"
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 86: warning #169-D: argument of type "char *" is incompatible with parameter of type "char"
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 86: warning #169-D: argument of type "char *" is incompatible with parameter of type "char"
+"../lab7main copy.c", line 87: warning #169-D: argument of type "char *" is incompatible with parameter of type "char"
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+ 
+>> Compilation failure
+subdir_rules.mk:16: recipe for target 'lab7main copy.obj' failed
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 82: error #29: expected an expression
+"../lab7main copy.c", line 82: error #66: expected a ";"
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+2 errors detected in the compilation of "../lab7main copy.c".
+gmake: *** [lab7main copy.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab7main copy.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/owenf718/cpre288_lab/Lab7" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab7main copy.d_raw"  "../lab7main copy.c"
+"C:/Users/owenf718/cpre288_lab/Lab7/lab7main.h", line 13: warning #1-D: last line of file ends without a newline
+"../lab7main copy.c", line 34: warning #552-D: variable "degreeFoundArr" was set but never used
+"../lab7main copy.c", line 35: warning #552-D: variable "degreeLostArr" was set but never used
+Finished building: "../lab7main copy.c"
+ 
+Building target: "Lab7.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab7.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab7_linkInfo.xml" --rom_model -o "Lab7.out" "./Timer.obj" "./button.obj" "./functions.obj" "./lab7main copy.obj" "./lab7main.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab7.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab8 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab8.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab7 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab7.out' is up to date.
+
+**** Build Finished ****

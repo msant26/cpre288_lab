@@ -24,18 +24,19 @@
 
 int main(void) {
 
-    int pingData, irData, avgIRData, prevAvgIRData, degree, start, end, i, index, irTotal, pingTotal, degreeFound, degreeLost;
-    double irDataCM;
+    int  irData, avgIRData, prevAvgIRData, degree, start, end, i, degreeFound, degreeLost;
 
-    int byte, objNum, length, onObj;
-    float data, initialData;
+    int startOBJIRData, length;
 
-    int irDataArr [180];
-    int pingDataArr [180];
+    int objNum, onObj;
+    float initialData;
+
     int degreeFoundArr [180];
     int degreeLostArr [180];
 
-    struct Object curr;
+    char buffer[10];
+
+
 
 
     // oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
@@ -47,20 +48,13 @@ int main(void) {
     lcd_init();
     cyBot_uart_init();
     cyBOT_init_Scan(0b0111);
-
     // cyBOT_SERVO_cal();
 
-    right_calibration_value = 285250;
-    left_calibration_value = 1277500;
+    right_calibration_value = 217000;
+    left_calibration_value = 1183000;
 
-    curr.angleF = 0;
-    curr.angleL = 0;
-    curr.data = 0;
-    curr.radial = 0;
-    curr.width = 180;
-
-    for(int i = 0; i < 3; i++){
-        cyBOT_Scan(degree, scan_data);
+    for(i = 0; i < 3; i++){
+        cyBOT_Scan(0, scan_data);
         initialData += scan_data->sound_dist;
         prevAvgIRData += scan_data->IR_raw_val;
     }
@@ -76,28 +70,49 @@ int main(void) {
 
     while(degree < end){
 
-        for(int i = 0; i < 3; i++){
+        for(i = 0; i < 3; i++){
             cyBOT_Scan(degree, scan_data);
             irData += scan_data->IR_raw_val;
         }
 
         avgIRData = irData / 3;
 
-        if(!onObj && (avgIRData <= prevAvgIRData * 0.7)){
+        if(avgIRData > 5000){
+            avgIRData = prevAvgIRData;
+        }
+
+        lcd_printf("%d", avgIRData);
+        sprintf(buffer, "%d", avgIRData);
+
+        length = sizeof(buffer) / sizeof(buffer[0]);
+
+        for(i = 0; i < length; i++){
+            cyBot_sendByte(buffer[i]);
+        }
+
+        cyBot_sendByte('\r');
+        cyBot_sendByte('\n');
+
+        irData = 0;
+
+        if(!onObj && (avgIRData >= prevAvgIRData + 175)){
             onObj = 1;
             objNum++;
             degreeFound = degree;
             degreeFoundArr[objNum] = degreeFound;
+            lcd_printf("Found Object %d", objNum);
+            startOBJIRData = avgIRData;
         }
 
-        if(onObj && (avgIRData <= prevAvgIRData * 1.3)){
+        if(onObj && (avgIRData <= startOBJIRData - 175)){
             onObj = 0;
             degreeLost = degree;
             degreeLostArr[objNum] = degreeLost;
+            lcd_printf("Lost Object %d", objNum);
         }
 
         prevAvgIRData = avgIRData;
-        degree++;
+        degree+=5;
     }
 
 
