@@ -22,9 +22,9 @@
 
 
 
-int mai(void) {
+int main(void) {
 
-    int pingData, irData, degree, start, end, i, index, irTotal, pingTotal;
+    int pingData, irData, avgIRData, prevAvgIRData, degree, start, end, i, index, irTotal, pingTotal, degreeFound, degreeLost;
     double irDataCM;
 
     int byte, objNum, length, onObj;
@@ -32,6 +32,8 @@ int mai(void) {
 
     int irDataArr [180];
     int pingDataArr [180];
+    int degreeFoundArr [180];
+    int degreeLostArr [180];
 
     struct Object curr;
 
@@ -57,58 +59,44 @@ int mai(void) {
     curr.radial = 0;
     curr.width = 180;
 
-    cyBOT_Scan(degree, scan_data);
-    initialData = scan_data->sound_dist;
+    for(int i = 0; i < 3; i++){
+        cyBOT_Scan(degree, scan_data);
+        initialData += scan_data->sound_dist;
+        prevAvgIRData += scan_data->IR_raw_val;
+    }
+    
+    prevAvgIRData = prevAvgIRData / 3;
 
     start = 0;
     end = 180;
     degree = start;
     i = 0;
-    objNum = 0;
+    objNum = -1;
     onObj = 0;
+
     while(degree < end){
-        cyBOT_Scan(degree, scan_data);
 
-        pingData = scan_data->sound_dist;
-        irData = scan_data->IR_raw_val;
+        for(int i = 0; i < 3; i++){
+            cyBOT_Scan(degree, scan_data);
+            irData += scan_data->IR_raw_val;
+        }
 
-        if (irData > 750 && !onObj){
+        avgIRData = irData / 3;
+
+        if(!onObj && (avgIRData <= prevAvgIRData * 0.7)){
             onObj = 1;
-            curr.number = objNum;
-            curr.angleF = degree;
-            curr.data = irData;
-            lcd_printf("Object Found");
-        }
-
-        //if(onObj && !((data < curr.data + 5) && (data > curr.data - 5))){
-        if(onObj && data <= 750){
-            onObj = 0;
-            curr.angleL = degree;
-            curr.radial = (curr.angleL + curr.angleF)/2;
-            curr.width = curr.angleL - curr.angleF;
-
-            char buffer[65];
-            sprintf(buffer, "Object %d: Angle=%d deg, Dist=%.2f cm, Width=%d deg\r\n",
-                    objNum, curr.radial, curr.data, curr.width);
-
-            length = sizeof(buffer) / sizeof(buffer[0]);
-
-            for (i=0;i<length;i++){
-                cyBot_sendByte(buffer[i]);
-            }
-
-            lcd_printf("Object Lost");
             objNum++;
+            degreeFound = degree;
+            degreeFoundArr[objNum] = degreeFound;
         }
 
-        irDataCM = 1752 * exp(-0.00843 * irData);
+        if(onObj && (avgIRData <= prevAvgIRData * 1.3)){
+            onObj = 0;
+            degreeLost = degree;
+            degreeLostArr[objNum] = degreeLost;
+        }
 
-        lcd_printf("IR Value %lf", irDataCM);
-
-        pingDataArr[i] = pingData;
-        irDataArr[i] = irData;
-
-        i++;
+        prevAvgIRData = avgIRData;
         degree++;
     }
 
