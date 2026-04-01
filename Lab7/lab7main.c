@@ -23,7 +23,7 @@
 
 
 
-int main(void) {
+int mainaa(void) {
 
     int  irData, avgIRData, prevAvgIRData, degree, start, end, i, degreeFound, degreeLost, objStart, objEnd, objMid, radWidth;
 
@@ -166,7 +166,7 @@ int main(void) {
             turn_right(sensor_data, 90 - targetAngle);
         }
 
-        move_forward(sensor_data, distMM - 50.0);
+        move_forward(sensor_data, distMM - 100.0);
 
     oi_free(sensor_data); // do this once at end of main()
     return 0;

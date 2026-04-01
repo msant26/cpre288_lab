@@ -10,7 +10,7 @@
 #include "uart.h"
 
 
-void scan();
+void scanForThinnest();
 
 int findEdges();
 
