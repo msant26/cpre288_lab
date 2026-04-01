@@ -28,7 +28,7 @@
 extern volatile char command_byte; // byte value for special character used as a command
 extern volatile int command_flag; // flag to tell the main program a special command was received
 
-int main(void) {
+int mai(void) {
 	timer_init(); // Must be called before lcd_init(), which uses timer functions
 	lcd_init();
 	uart_interrupt_init();

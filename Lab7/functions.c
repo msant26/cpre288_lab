@@ -3,12 +3,16 @@
 #include "functions.h"
 
 // Make a scan from 0 – 180 (or 360) degrees. Take multiple measurements at each angle in the scan.
+
+
+
 void scan(){
+
 
 }
 
 // Use the IR values to detect the edges of each object, i.e., the angles for the starting and ending edges
-int findEdges() {
+int findObjs() {
 
     return 0;
 }

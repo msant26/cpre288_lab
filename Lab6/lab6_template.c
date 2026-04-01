@@ -6,7 +6,7 @@
  * @author Diane Rover, 2/15/2020
  *
 */
-/*
+
 #include "Timer.h"
 #include "lcd.h"
 #include "cyBot_Scan.h"  // For scan sensors
@@ -52,5 +52,5 @@ int main(void) {
         }
         uart_sendStr("Program Terminated");
     }
-}*/
+}
 

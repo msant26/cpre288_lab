@@ -17,101 +17,134 @@
 #include "cyBot_uart.h"
 #include "cyBot_Scan.h"
 #include <math.h>
+#include "uart.h"
 
 
 
 
 
-int mai(void) {
+int main(void) {
 
-    int pingData, irData, degree, start, end, i, index, irTotal, pingTotal;
-    double irDataCM;
+    int  irData, avgIRData, prevAvgIRData, degree, start, end, i, degreeFound, degreeLost, objStart, objEnd, objMid, radWidth;
 
-    int byte, objNum, length, onObj;
-    float data, initialData;
+        int startOBJIRData, length, arrSize;
 
-    int irDataArr [180];
-    int pingDataArr [180];
+        int objNum, onObj;
+        float initialData, data, linWidth, radians;
 
-    struct Object curr;
+        char buffer[10];
+        char charDegree[10];
+
+        int degreeFoundArr [180];
+        int degreeLostArr [180];
 
 
-    // oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
-    // oi_init(sensor_data); // do this only once at start of main()
 
-    cyBOT_Scan_t *scan_data = calloc(1, sizeof(cyBOT_Scan_t));
+        // oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
+        // oi_init(sensor_data); // do this only once at start of main()
 
-    timer_init();
-    lcd_init();
-    cyBot_uart_init();
-    cyBOT_init_Scan(0b0111);
+        cyBOT_Scan_t *scan_data = calloc(1, sizeof(cyBOT_Scan_t));
 
-    // cyBOT_SERVO_cal();
+        timer_init();
+        lcd_init();
+        cyBot_uart_init();
+        cyBOT_init_Scan(0b0111);
+        uart_init();
 
-    right_calibration_value = 285250;
-    left_calibration_value = 1277500;
+        // cyBOT_SERVO_cal();
 
-    curr.angleF = 0;
-    curr.angleL = 0;
-    curr.data = 0;
-    curr.radial = 0;
-    curr.width = 180;
+        right_calibration_value = 238000;
+        left_calibration_value = 1267000;
 
-    cyBOT_Scan(degree, scan_data);
-    initialData = scan_data->sound_dist;
-
-    start = 0;
-    end = 180;
-    degree = start;
-    i = 0;
-    objNum = 0;
-    onObj = 0;
-    while(degree < end){
-        cyBOT_Scan(degree, scan_data);
-
-        pingData = scan_data->sound_dist;
-        irData = scan_data->IR_raw_val;
-
-        if (irData > 750 && !onObj){
-            onObj = 1;
-            curr.number = objNum;
-            curr.angleF = degree;
-            curr.data = irData;
-            lcd_printf("Object Found");
+        for(i = 0; i < 4; i++){
+            cyBOT_Scan(0, scan_data);
+            initialData += scan_data->sound_dist;
+            prevAvgIRData += scan_data->IR_raw_val;
         }
 
-        //if(onObj && !((data < curr.data + 5) && (data > curr.data - 5))){
-        if(onObj && data <= 750){
-            onObj = 0;
-            curr.angleL = degree;
-            curr.radial = (curr.angleL + curr.angleF)/2;
-            curr.width = curr.angleL - curr.angleF;
+        prevAvgIRData = prevAvgIRData / 4;
 
-            char buffer[65];
-            sprintf(buffer, "Object %d: Angle=%d deg, Dist=%.2f cm, Width=%d deg\r\n",
-                    objNum, curr.radial, curr.data, curr.width);
+        if(prevAvgIRData > 5000 || prevAvgIRData < 0){
+            prevAvgIRData = 600;
+        }
 
-            length = sizeof(buffer) / sizeof(buffer[0]);
+        start = 0;
+        end = 180;
+        degree = start;
+        i = 0;
+        objNum = -1;
+        onObj = 0;
 
-            for (i=0;i<length;i++){
-                cyBot_sendByte(buffer[i]);
+        while(degree < end){
+
+            for(i = 0; i < 4; i++){
+                cyBOT_Scan(degree, scan_data);
+                irData += scan_data->IR_raw_val;
             }
 
-            lcd_printf("Object Lost");
-            objNum++;
+            avgIRData = irData / 4;
+
+            if(avgIRData > 5000 || avgIRData < 0){
+                avgIRData = prevAvgIRData;
+            }
+
+            lcd_printf("%d", avgIRData);
+
+            sprintf(buffer, "%d", avgIRData);
+            sprintf(charDegree, "%d", degree);
+
+            uart_sendStr("Degree: ");
+            uart_sendStr(charDegree);
+            uart_sendStr("       IR Value: ");
+            uart_sendStr(buffer);
+            uart_sendChar('\r');
+            uart_sendChar('\n');
+            irData = 0;
+
+            if(!onObj && (avgIRData >= prevAvgIRData + 150)){
+                onObj = 1;
+                objNum++;
+                degreeFound = degree;
+                degreeFoundArr[objNum] = degreeFound;
+                lcd_printf("Found Object %d", objNum);
+                uart_sendStr("Start of Obj");
+                uart_sendChar('\r');
+                uart_sendChar('\n');
+                startOBJIRData = avgIRData;
+            }
+
+            if(onObj && (avgIRData <= startOBJIRData - 150)){
+                onObj = 0;
+                degreeLost = degree;
+                degreeLostArr[objNum] = degreeLost;
+                lcd_printf("Lost Object %d", objNum);
+                uart_sendStr("End of Obj");
+                uart_sendChar('\r');
+                uart_sendChar('\n');
+            }
+
+            prevAvgIRData = avgIRData;
+            degree+=2;
         }
 
-        irDataCM = 1752 * exp(-0.00843 * irData);
+        for(i = 0; i <= objNum; i++){
+            objStart = degreeFoundArr[i];
+            objEnd = degreeLostArr[i];
+            objMid = (objEnd + objStart) / 2;
 
-        lcd_printf("IR Value %lf", irDataCM);
+            radWidth = objEnd - objStart;
 
-        pingDataArr[i] = pingData;
-        irDataArr[i] = irData;
+            cyBOT_Scan(objMid, scan_data);
+            timer_waitMillis(1000);
+            cyBOT_Scan(objMid, scan_data);
+            data = scan_data->sound_dist;
 
-        i++;
-        degree++;
-    }
+            radians = radWidth * (M_PI / 180.0f);
+            linWidth = 2.0f * data * tanf(radians / 2.0f);
 
+            lcd_printf("O%d D: %.2f W: %.2f", i, data, linWidth);
+            timer_waitMillis(2000);
+        }
 
     // oi_free(sensor_data); // do this once at end of main()
     return 0;
