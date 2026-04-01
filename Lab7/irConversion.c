@@ -22,10 +22,10 @@
 
 
 
-int nain(void) {
+int maina(void) {
 
-    // oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
-    // oi_init(sensor_data); // do this only once at start of main()
+    oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
+    oi_init(sensor_data); // do this only once at start of main()
 
     int irData;
     float pingData;
@@ -40,8 +40,9 @@ int nain(void) {
     // cyBOT_SERVO_cal();
 
     right_calibration_value = 290500;
-    left_calibration_value = 1298500;
+    left_calibration_value = 1272250;
 
+    move_forward(sensor_data, 100.0);
     while(1){
         cyBOT_Scan(90, scan_data);
         pingData = scan_data->sound_dist;
@@ -49,7 +50,7 @@ int nain(void) {
     }
 
 
-    // oi_free(sensor_data); // do this once at end of main()
+    oi_free(sensor_data); // do this once at end of main()
     return 0;
 }
 

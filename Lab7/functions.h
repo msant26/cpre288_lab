@@ -9,6 +9,7 @@
 #include <math.h>
 #include "uart.h"
 
+
 void scan();
 
 int findEdges();

@@ -28,8 +28,9 @@ int main(void) {
     int  irData, avgIRData, prevAvgIRData, degree, start, end, i, degreeFound, degreeLost, objStart, objEnd, objMid, radWidth;
 
         int startOBJIRData, length, arrSize;
+        double distMM;
 
-        int objNum, onObj;
+        int objNum, onObj, thinnest, targetAngle, targetDist;
         float initialData, data, linWidth, radians;
 
         char buffer[10];
@@ -40,8 +41,8 @@ int main(void) {
 
 
 
-        // oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
-        // oi_init(sensor_data); // do this only once at start of main()
+        oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
+        oi_init(sensor_data); // do this only once at start of main()
 
         cyBOT_Scan_t *scan_data = calloc(1, sizeof(cyBOT_Scan_t));
 
@@ -53,8 +54,10 @@ int main(void) {
 
         // cyBOT_SERVO_cal();
 
-        right_calibration_value = 238000;
-        left_calibration_value = 1267000;
+        right_calibration_value = 290500;
+        left_calibration_value = 1272250;
+
+        cyBOT_Scan(0, scan_data);
 
         for(i = 0; i < 4; i++){
             cyBOT_Scan(0, scan_data);
@@ -64,9 +67,11 @@ int main(void) {
 
         prevAvgIRData = prevAvgIRData / 4;
 
+
         if(prevAvgIRData > 5000 || prevAvgIRData < 0){
-            prevAvgIRData = 600;
+            prevAvgIRData = 700;
         }
+
 
         start = 0;
         end = 180;
@@ -74,6 +79,7 @@ int main(void) {
         i = 0;
         objNum = -1;
         onObj = 0;
+        irData = 0;
 
         while(degree < end){
 
@@ -123,10 +129,10 @@ int main(void) {
                 uart_sendChar('\n');
             }
 
-            prevAvgIRData = avgIRData;
             degree+=2;
         }
 
+        thinnest = 100;
         for(i = 0; i <= objNum; i++){
             objStart = degreeFoundArr[i];
             objEnd = degreeLostArr[i];
@@ -142,11 +148,27 @@ int main(void) {
             radians = radWidth * (M_PI / 180.0f);
             linWidth = 2.0f * data * tanf(radians / 2.0f);
 
-            lcd_printf("O%d D: %.2f W: %.2f", i, data, linWidth);
+            if(linWidth < thinnest){
+                thinnest = linWidth;
+                targetAngle = objMid;
+                targetDist = data;
+            }
+
+            lcd_printf("Object %d \nDistance: %.2fcm\nWidth: %.2fcm", i, data, linWidth);
             timer_waitMillis(2000);
         }
 
-    // oi_free(sensor_data); // do this once at end of main()
+        distMM = (double) targetDist * 10.0;
+        if(targetAngle > 90){
+            turn_left(sensor_data, targetAngle - 90);
+        }
+        else if(targetAngle < 90){
+            turn_right(sensor_data, 90 - targetAngle);
+        }
+
+        move_forward(sensor_data, distMM - 50.0);
+
+    oi_free(sensor_data); // do this once at end of main()
     return 0;
 }
 
