@@ -73,10 +73,7 @@ double turn_right(oi_t *sensor_data, double target_d){
     return sum;
 }
 
-void collision_detector(oi_t *sensor_data, double* target){
-
-    // increases target distance to account for the travel backwards in the function
-    *target += 150.0;
+void collision_detector(oi_t *sensor_data){
 
     // moves backwards 15cm, rotates left 90 degrees, moves forward 25cm, and rotates left 90 degrees
     if(sensor_data -> bumpLeft && sensor_data -> bumpRight){
