@@ -33,6 +33,7 @@ int main(void) {
 
     scanForThinnest(&targetAngle, &targetDist);
 
+    while(targetDist != 10){
         distMM = (double) targetDist * 10.0;
         if(targetAngle > 90){
             turn_left(sensor_data, targetAngle - 90);
@@ -41,8 +42,12 @@ int main(void) {
             turn_right(sensor_data, 90 - targetAngle);
         }
 
-        move_forward(sensor_data, distMM - 100.0);
-
+        if (!sensor_data -> bumpLeft && !sensor_data -> bumpRight && distance < target){
+            move_forward(sensor_data, distMM - 100.0);
+            continue;
+        }
+        collision_detector(sensor_data, distMM);
+    }
     oi_free(sensor_data); // do this once at end of main()
     return 0;
 }
