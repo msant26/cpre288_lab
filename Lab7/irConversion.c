@@ -39,8 +39,8 @@ int maina(void) {
 
     cyBOT_SERVO_cal();
 
-    right_calibration_value = 274750;
-    left_calibration_value = 1204000;
+    right_calibration_value = 253750;
+    left_calibration_value = 1235500;
 
     move_forward(sensor_data, 100.0);
     while(1){

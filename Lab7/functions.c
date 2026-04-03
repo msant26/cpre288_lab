@@ -6,7 +6,7 @@
 
 
 
-void scanForThinnest(int *tA, int* tD){
+void scanForThinnest(int *tA, float* tD){
 
     int  irData, avgIRData, prevAvgIRData, degree, start, end, i, degreeFound, degreeLost, objStart, objEnd, objMid, radWidth;
 
@@ -35,8 +35,8 @@ void scanForThinnest(int *tA, int* tD){
 
             // cyBOT_SERVO_cal();
 
-            right_calibration_value = 238000;
-            left_calibration_value = 1183000;
+            right_calibration_value = 253750;
+                left_calibration_value = 1235500;
 
             cyBOT_Scan(0, scan_data);
 
@@ -120,7 +120,7 @@ void scanForThinnest(int *tA, int* tD){
                     uart_sendChar('\n');
                 }
 
-                degree+=2;
+                degree+=3;
             }
 
             thinnest = 100;
@@ -148,6 +148,8 @@ void scanForThinnest(int *tA, int* tD){
                 lcd_printf("Object %d \nDistance: %.2fcm\nWidth: %.2fcm", i, data, linWidth);
                 timer_waitMillis(2000);
             }
+            lcd_printf("Thinnest at A: %d\n D: %.2f", *tA, *tD);
+            timer_waitMillis(1000);
 
 }
 

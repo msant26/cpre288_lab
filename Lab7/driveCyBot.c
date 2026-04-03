@@ -17,7 +17,7 @@
 #include "uart.h"
 #include "functions.h"
 
-int main (void) {
+int ain (void) {
 
     timer_init(); // Initialize Timer, needed before any LCD screen fucntions can be called
                   // and enables time functions (e.g. timer_waitMillis)

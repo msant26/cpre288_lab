@@ -80,21 +80,21 @@ void collision_detector(oi_t *sensor_data){
         move_backwards(sensor_data, -150);
         turn_left(sensor_data, 90);
         move_forward(sensor_data, 250);
-        turn_right(sensor_data, 90);
+        turn_right(sensor_data, 100);
     }
 
     if(sensor_data -> bumpLeft){
         move_backwards(sensor_data, -150);
         turn_right(sensor_data, 90);
         move_forward(sensor_data, 250);
-        turn_left(sensor_data, 90);
+        turn_left(sensor_data, 100);
     }
 
     if(sensor_data -> bumpRight){
         move_backwards(sensor_data, -150);
         turn_left(sensor_data, 90);
         move_forward(sensor_data, 250);
-        turn_right(sensor_data, 90);
+        turn_right(sensor_data, 100);
     }
 
 }

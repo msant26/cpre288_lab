@@ -46,4 +46,3 @@ Angle(Degrees)	Distance(m)
 176				1.5
 180				2.5
 END
-
