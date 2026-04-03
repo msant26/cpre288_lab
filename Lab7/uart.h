@@ -16,6 +16,10 @@
 #ifndef UART_H_
 #define UART_H_
 
+#include <stdio.h>
+#include <stdint.h>
+#include <string.h>
+#include <stdlib.h>
 #include <inc/tm4c123gh6pm.h>
 
 // UART1 device initialization for CyBot to PuTTY

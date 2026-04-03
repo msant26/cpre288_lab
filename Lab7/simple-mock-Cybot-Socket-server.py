@@ -38,8 +38,8 @@ while True:  # Loop recieving/sending data from/to client until client disconnec
 
     print("Recieved from client: " + data.decode()) # Convert message from bytes to String (i.e., decode), then print
     
-    data_to_client = data.decode()  # Echo Server: option for echoing data back to client, or 
-    #data_to_client = input('Enter data to sent to the cliet -> ') + '\n'  # Chat Server: option for interactively choosing what data to send to the client
+    # data_to_client = data.decode()  # Echo Server: option for echoing data back to client, or 
+    data_to_client = input('Enter data to sent to the client -> ') + '\n'  # Chat Server: option for interactively choosing what data to send to the client
 
     conn.send(data_to_client.encode())  # Convert String to bytes (i.e., encode), and send data to the client
     print("Sent to client:" + data_to_client)

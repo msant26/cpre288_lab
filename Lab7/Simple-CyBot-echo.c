@@ -9,8 +9,9 @@
 #include "Timer.h"
 #include "lcd.h"
 #include "cyBot_uart.h"
+#include "open_interface.h"
 
-int mainaaa (void) {
+int mai (void) {
 
   timer_init(); // Initialize Timer, needed before any LCD screen fucntions can be called 
 	              // and enables time functions (e.g. timer_waitMillis)

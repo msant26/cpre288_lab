@@ -24,7 +24,7 @@
 
 
 
-int main(void) {
+int mainaaa(void) {
 
     int targetAngle = 45;
     int targetDist = 50;
@@ -35,7 +35,7 @@ int main(void) {
 
     oi_setWheels(0,0);
     while(targetDist > 15){
-        // scanForThinnest(&targetAngle, &targetDist);
+        scanForThinnest(&targetAngle, &targetDist);
 
         distMM = (double) targetDist * 10.0;
        if(targetAngle > 90){
