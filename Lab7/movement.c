@@ -8,7 +8,7 @@
 #include "movement.h"
 
 double move_forward(oi_t *sensor_data, double distance_mm){
-    oi_setWheels(100,100);
+    oi_setWheels(50,50);
     double sum = 0;
     while (sum < distance_mm){
         oi_update(sensor_data);
@@ -24,7 +24,7 @@ double move_forward(oi_t *sensor_data, double distance_mm){
 }
 
 double move_backwards(oi_t *sensor_data, double distance_mm){
-    oi_setWheels(-100,-100);
+    oi_setWheels(-50,-50);
     double sum = 0;
     while (sum > distance_mm){
         oi_update(sensor_data);

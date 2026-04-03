@@ -21,33 +21,36 @@
 #include "functions.h"
 
 
-int targetAngle;
-int targetDist = 1000;
-double distMM;
+
 
 
 int main(void) {
 
+    int targetAngle = 45;
+    int targetDist = 50;
+    double distMM;
+
     oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
     oi_init(sensor_data); // do this only once at start of main()
 
+    oi_setWheels(0,0);
     while(targetDist > 15){
-        scanForThinnest(&targetAngle, &targetDist);
+        // scanForThinnest(&targetAngle, &targetDist);
 
         distMM = (double) targetDist * 10.0;
-        if(targetAngle > 90){
+       if(targetAngle > 90){
             turn_left(sensor_data, targetAngle - 90);
         }
         else if(targetAngle < 90){
             turn_right(sensor_data, 90 - targetAngle);
         }
-
-        if (!sensor_data -> bumpLeft && !sensor_data -> bumpRight && targetDist > 15){
-            oi_setWheels(100,100);
+        if (!sensor_data -> bumpLeft && !sensor_data -> bumpRight){
+            oi_setWheels(50,50);
             oi_update(sensor_data);
             continue;
         }
 
+        oi_setWheels(0,0);
         collision_detector(sensor_data);
     }
     oi_free(sensor_data); // do this once at end of main()

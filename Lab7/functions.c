@@ -35,23 +35,33 @@ void scanForThinnest(int *tA, int* tD){
 
             // cyBOT_SERVO_cal();
 
-            right_calibration_value = 290500;
-            left_calibration_value = 1272250;
+            right_calibration_value = 238000;
+            left_calibration_value = 1183000;
 
             cyBOT_Scan(0, scan_data);
 
-            for(i = 0; i < 4; i++){
+            for(i = 0; i < 6; i++){
                 cyBOT_Scan(0, scan_data);
                 initialData += scan_data->sound_dist;
                 prevAvgIRData += scan_data->IR_raw_val;
             }
 
-            prevAvgIRData = prevAvgIRData / 4;
+            prevAvgIRData = prevAvgIRData / 6;
 
 
             if(prevAvgIRData > 5000 || prevAvgIRData < 0){
                 prevAvgIRData = 700;
             }
+
+            prevAvgIRData = 730;
+
+            sprintf(buffer, "%d", prevAvgIRData);
+            lcd_printf("%d", prevAvgIRData);
+
+            uart_sendStr("Initial IR Value: ");
+            uart_sendStr(buffer);
+            uart_sendChar('\r');
+            uart_sendChar('\n');
 
 
             start = 0;
@@ -64,7 +74,7 @@ void scanForThinnest(int *tA, int* tD){
 
             while(degree < end){
 
-                for(i = 0; i < 4; i++){
+                for(i = 0; i < 5; i++){
                     cyBOT_Scan(degree, scan_data);
                     irData += scan_data->IR_raw_val;
                 }

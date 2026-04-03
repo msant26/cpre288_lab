@@ -37,15 +37,16 @@ int maina(void) {
     cyBOT_init_Scan(0b0111);
     uart_init();
 
-    // cyBOT_SERVO_cal();
+    cyBOT_SERVO_cal();
 
-    right_calibration_value = 290500;
-    left_calibration_value = 1272250;
+    right_calibration_value = 274750;
+    left_calibration_value = 1204000;
 
     move_forward(sensor_data, 100.0);
     while(1){
         cyBOT_Scan(90, scan_data);
         pingData = scan_data->sound_dist;
+        irData = scan_data->IR_raw_val;
         lcd_printf("%f", pingData);
     }
 
