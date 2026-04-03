@@ -31,7 +31,10 @@ print("Socket Connection from: " + str(addr))  # Display address of client that 
 while True:  # Loop recieving/sending data from/to client until client disconnects, or error causes data to be 0 (i.e., no data)
 
     try: # Receive data from client.
-        data = conn.recv(1024)  # Recieve byte array, will not accept a data packet greater than 1024 bytes		
+        data = conn.recv(1024)  # Recieve byte array, will not accept a data packet greater than 1024 bytes     
+        if not data:                        # Handle clean client disconnect
+            print("Client disconnected\n")
+            break
     except socket.error as msg:  # Client has disconnected, or there has been some type of error while recv waits for data
         print("Connection closed: " + str(msg) + "\n")
         break
@@ -41,6 +44,9 @@ while True:  # Loop recieving/sending data from/to client until client disconnec
     data_to_client = data.decode()  # Echo Server: option for echoing data back to client, or 
     #data_to_client = input('Enter data to sent to the cliet -> ') + '\n'  # Chat Server: option for interactively choosing what data to send to the client
 
+    if not data_to_client.endswith('\n'):   # ← THE FIX: ensure newline at end
+        data_to_client += '\n'
+        
     conn.send(data_to_client.encode())  # Convert String to bytes (i.e., encode), and send data to the client
     print("Sent to client:" + data_to_client)
 
