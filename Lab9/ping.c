@@ -2,7 +2,7 @@
  * Driver for ping sensor
  * @file ping.c
  * @author
- */
+*/
 
 #include "ping.h"
 #include "Timer.h"
@@ -21,8 +21,6 @@ volatile uint8_t overflow = 0;
 
 void ping_init (void){
 
-  // YOUR CODE HERE
-
     // Enable clock
     SYSCTL_RCGCGPIO_R |= 0x02;
     SYSCTL_RCGCTIMER_R |= 0x08;
@@ -31,20 +29,25 @@ void ping_init (void){
     while((SYSCTL_PRGPIO_R & 0x02) == 0){};
     while((SYSCTL_PRTIMER_R & 0x08) == 0){};
 
+    // Ensures timer is disabled
+    TIMER3_CTL_R &= ~0x100;
+
     // Enable alternate functions
     GPIO_PORTB_AFSEL_R |= 0x08;
 
     // Enable digital functions
     GPIO_PORTB_DEN_R |= 0x08;
+    GPIO_PORTB_DIR_R &= ~0x08;
 
     // Select alternate function
-    GPIO_PORTB_PCTL_R = 0x7000;
+    GPIO_PORTB_PCTL_R = (GPIO_PORTB_PCTL_R & ~0xF000) | 0x7000;
 
     // Configure 16 Bit mode
     TIMER3_CFG_R = 0x04;
 
     // Configure input edge-time
     TIMER3_TBMR_R = 0x07;
+    TIMER3_TBMR_R &= ~0x10;
 
     // 8bit prescaler for 24bit timer
     TIMER3_TBPR_R = 0xFF;
@@ -53,13 +56,17 @@ void ping_init (void){
     // Capture both rising and falling
     TIMER3_CTL_R |= 0xC00;
 
-    // Enable interrupts
+    // Clear flag and enable interrupts
+    TIMER3_ICR_R = 0x400;
     TIMER3_IMR_R |= 0x400;
 
     // Turn on timer
     TIMER3_CTL_R |= 0x100;
 
     IntRegister(INT_TIMER3B, TIMER3B_Handler);
+
+    // Interrupt register
+    NVIC_EN1_R |= (1 << (INT_TIMER3B - 32));
 
     IntMasterEnable();
 }
@@ -73,6 +80,7 @@ void ping_trigger (void){
     GPIO_PORTB_AFSEL_R &= ~0x08;
 
     // Low state (2us to allow low to set)
+    GPIO_PORTB_DIR_R |= 0x08;
     GPIO_PORTB_DATA_R &= ~0x08;
     timer_waitMicros(2);
 
@@ -86,54 +94,49 @@ void ping_trigger (void){
     g_state = LOW;
 
     // Clear an interrupt that may have been erroneously triggered
-    TIMER3_ICR_R |= 0xF00;
+    TIMER3_ICR_R = 0x400;
+    GPIO_PORTB_DIR_R &= ~0x08;
     // Re-enable alternate function, timer interrupt, and timer
     GPIO_PORTB_AFSEL_R |= 0x08;
+    timer_waitMicros(1);
     TIMER3_IMR_R |= 0x400;
     TIMER3_CTL_R |= 0x100;
 }
 
-void TIMER3B_Handler(void){
-
-    // Check if this interrupt is from capture event
-    if (TIMER3_MIS_R & 0x400) {
-
-        // Clear the interrupt
+void TIMER3B_Handler(void)
+{
+    if (TIMER3_MIS_R & 0x400)
+    {
+        // Clear capture interrupt
         TIMER3_ICR_R = 0x400;
 
-        // Read 24-bit timestamp
+        // 24-bit timestamp
         uint32_t timestamp = TIMER3_TBR_R & 0x00FFFFFF;
 
-        // Edge handling
-        if (g_state == LOW) {
+        if (g_state == LOW)
+        {
+            // Rising edge
             rising_time = timestamp;
-
             g_state = HIGH;
-
-            // capture falling edge
-            TIMER3_CTL_R &= ~0x0C00;
-            TIMER3_CTL_R |= 0x0400;
         }
-        else {
+        else
+        {
             // Falling edge
             falling_time = timestamp;
 
-            // Compute pulse width
-            if (falling_time >= rising_time){
-                pulse_width = falling_time - rising_time;
+            // Down-counting timer → handle wraparound
+            if (rising_time >= falling_time)
+            {
+                pulse_width = rising_time - falling_time;
                 overflow = 0;
             }
-            else{
-                pulse_width = (0x00FFFFFF - rising_time) + falling_time;
+            else
+            {
+                pulse_width = rising_time + (0x01000000 - falling_time); // 2^24 wrap
                 overflow = 1;
             }
 
             done = 1;
-
-            // Prepare for next measurement → back to rising edge
-            TIMER3_CTL_R &= ~0x0C00;
-            TIMER3_CTL_R |= 0x0000;   // Rising edge
-
             g_state = LOW;
         }
     }
@@ -144,3 +147,4 @@ float ping_getDistance (void){
     // YOUR CODE HERE
 
 }
+

@@ -45769,3 +45769,2322 @@ Finished building target: "Lab9.out"
 gmake[1]: 'Lab9.out' is up to date.
 
 **** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../adc.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="adc.d_raw"  "../adc.c"
+Finished building: "../adc.c"
+ 
+Building file: "../Timer.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Timer.d_raw"  "../Timer.c"
+Finished building: "../Timer.c"
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab9_template.c", line 21: warning #179-D: variable "buffer" was declared but never referenced
+Finished building: "../lab9_template.c"
+ 
+Building file: "../lcd.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lcd.d_raw"  "../lcd.c"
+Finished building: "../lcd.c"
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 146: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building file: "../pingOne.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="pingOne.d_raw"  "../pingOne.c"
+Finished building: "../pingOne.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../pingOne.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="pingOne.d_raw"  "../pingOne.c"
+"../pingOne.c", line 95: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../pingOne.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "g_end_time" redefined: first defined in "./ping.obj"; redefined in "./pingOne.obj"
+error #10056: symbol "TIMER3B_Handler" redefined: first defined in "./ping.obj"; redefined in "./pingOne.obj"
+error #10056: symbol "ping_init" redefined: first defined in "./ping.obj"; redefined in "./pingOne.obj"
+error #10056: symbol "g_state" redefined: first defined in "./ping.obj"; redefined in "./pingOne.obj"
+error #10056: symbol "g_start_time" redefined: first defined in "./ping.obj"; redefined in "./pingOne.obj"
+error #10056: symbol "ping_getDistance" redefined: first defined in "./ping.obj"; redefined in "./pingOne.obj"
+error #10056: symbol "ping_trigger" redefined: first defined in "./ping.obj"; redefined in "./pingOne.obj"
+error #10010: errors encountered during linking; "Lab9.out" not built
+ 
+>> Compilation failure
+makefile:144: recipe for target 'Lab9.out' failed
+gmake[1]: *** [Lab9.out] Error 1
+makefile:140: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../pingTwo.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="pingTwo.d_raw"  "../pingTwo.c"
+Finished building: "../pingTwo.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./pingOne.obj" "./pingTwo.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 95: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingTwo.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab9_template.c", line 21: warning #179-D: variable "buffer" was declared but never referenced
+Finished building: "../lab9_template.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingTwo.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab9_template.c", line 21: warning #179-D: variable "buffer" was declared but never referenced
+Finished building: "../lab9_template.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingTwo.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab9_template.c", line 21: warning #179-D: variable "buffer" was declared but never referenced
+Finished building: "../lab9_template.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingTwo.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab9_template.c", line 21: warning #179-D: variable "buffer" was declared but never referenced
+Finished building: "../lab9_template.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingTwo.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab9_template.c", line 21: warning #179-D: variable "buffer" was declared but never referenced
+Finished building: "../lab9_template.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingTwo.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingTwo.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+Finished building: "../ping.c"
+ 
+Building file: "../pingOne.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="pingOne.d_raw"  "../pingOne.c"
+Finished building: "../pingOne.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 146: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../Timer.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="Timer.d_raw"  "../Timer.c"
+Finished building: "../Timer.c"
+ 
+Building file: "../button.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="button.d_raw"  "../button.c"
+Finished building: "../button.c"
+ 
+Building file: "../lab6-interrupt_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6-interrupt_template.d_raw"  "../lab6-interrupt_template.c"
+"../lab6-interrupt_template.c", line 25: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab6-interrupt_template.c"
+ 
+Building file: "../lab6_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab6_template.d_raw"  "../lab6_template.c"
+"../lab6_template.c", line 21: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab6_template.c", line 28: warning #225-D: function "cyBot_uart_init_clean" declared implicitly
+"../lab6_template.c", line 34: warning #179-D: variable "buffer" was declared but never referenced
+"../lab6_template.c", line 35: warning #179-D: variable "count" was declared but never referenced
+Finished building: "../lab6_template.c"
+ 
+Building file: "../lcd.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lcd.d_raw"  "../lcd.c"
+Finished building: "../lcd.c"
+ 
+Building file: "../tm4c123gh6pm_startup_ccs.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="tm4c123gh6pm_startup_ccs.d_raw"  "../tm4c123gh6pm_startup_ccs.c"
+Finished building: "../tm4c123gh6pm_startup_ccs.c"
+ 
+Building file: "../movement.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="movement.d_raw"  "../movement.c"
+Finished building: "../movement.c"
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+Finished building: "../uart-interrupt.c"
+ 
+Building file: "../uart.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart.d_raw"  "../uart.c"
+"../uart.c", line 41: warning #179-D: variable "iBRD" was declared but never referenced
+"../uart.c", line 42: warning #179-D: variable "fBRD" was declared but never referenced
+Finished building: "../uart.c"
+ 
+Building file: "../open_interface.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="open_interface.d_raw"  "../open_interface.c"
+"../open_interface.c", line 356: warning #179-D: variable "charging_state" was declared but never referenced
+Finished building: "../open_interface.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'ping.obj' failed
+"../ping.c", line 131: error #171: expected a declaration
+At end of source: warning #12-D: parsing restarts here after previous syntax error
+1 error detected in the compilation of "../ping.c".
+gmake: *** [ping.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 136: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 136: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 138: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../pingC.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="pingC.d_raw"  "../pingC.c"
+"../pingC.c", line 120: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../pingC.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingC.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "done" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "falling_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "g_end_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "TIMER3B_Handler" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "ping_init" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "g_state" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "pulse_width" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "g_start_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "rising_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "ping_getDistance" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "overflow" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "ping_trigger" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10010: errors encountered during linking; "Lab9.out" not built
+ 
+>> Compilation failure
+makefile:145: recipe for target 'Lab9.out' failed
+gmake[1]: *** [Lab9.out] Error 1
+makefile:141: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../pingC.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="pingC.d_raw"  "../pingC.c"
+"../pingC.c", line 127: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../pingC.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingC.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "done" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "falling_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "g_end_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "TIMER3B_Handler" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "ping_init" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "g_state" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "pulse_width" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "g_start_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "rising_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "ping_getDistance" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "overflow" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "ping_trigger" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10010: errors encountered during linking; "Lab9.out" not built
+ 
+>> Compilation failure
+makefile:145: recipe for target 'Lab9.out' failed
+gmake[1]: *** [Lab9.out] Error 1
+makefile:141: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab9_template.c", line 22: warning #225-D: function "lcd_setCursor" declared implicitly
+"../lab9_template.c", line 27: warning #179-D: variable "buffer" was declared but never referenced
+Finished building: "../lab9_template.c"
+ 
+Building file: "../pingC.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="pingC.d_raw"  "../pingC.c"
+"../pingC.c", line 124: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../pingC.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingC.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "done" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "falling_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "g_end_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "TIMER3B_Handler" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "ping_init" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "g_state" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "pulse_width" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "g_start_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "rising_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "ping_getDistance" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "overflow" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "ping_trigger" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+ 
+ undefined     first referenced   
+  symbol           in file        
+ ---------     ----------------   
+ lcd_setCursor ./lab9_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab9.out" not built
+ 
+>> Compilation failure
+makefile:145: recipe for target 'Lab9.out' failed
+gmake[1]: *** [Lab9.out] Error 1
+makefile:141: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../pingC.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="pingC.d_raw"  "../pingC.c"
+Finished building: "../pingC.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingC.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "done" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "falling_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "g_end_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "TIMER3B_Handler" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "ping_init" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "g_state" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "pulse_width" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "g_start_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "rising_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "ping_getDistance" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "overflow" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "ping_trigger" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+ 
+ undefined     first referenced   
+  symbol           in file        
+ ---------     ----------------   
+ lcd_setCursor ./lab9_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab9.out" not built
+ 
+>> Compilation failure
+makefile:145: recipe for target 'Lab9.out' failed
+gmake[1]: *** [Lab9.out] Error 1
+makefile:141: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingC.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+ 
+ undefined     first referenced   
+  symbol           in file        
+ ---------     ----------------   
+ lcd_setCursor ./lab9_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab9.out" not built
+ 
+>> Compilation failure
+makefile:145: recipe for target 'Lab9.out' failed
+gmake[1]: *** [Lab9.out] Error 1
+makefile:141: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab9_template.c", line 35: warning #225-D: function "lcd_setCursor" declared implicitly
+"../lab9_template.c", line 26: warning #179-D: variable "buffer" was declared but never referenced
+Finished building: "../lab9_template.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingC.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+ 
+ undefined     first referenced   
+  symbol           in file        
+ ---------     ----------------   
+ lcd_setCursor ./lab9_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab9.out" not built
+ 
+>> Compilation failure
+makefile:145: recipe for target 'Lab9.out' failed
+gmake[1]: *** [Lab9.out] Error 1
+makefile:141: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab9_template.c", line 35: warning #225-D: function "lcd_setCursor" declared implicitly
+"../lab9_template.c", line 26: warning #179-D: variable "buffer" was declared but never referenced
+Finished building: "../lab9_template.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingC.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+ 
+ undefined     first referenced   
+  symbol           in file        
+ ---------     ----------------   
+ lcd_setCursor ./lab9_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab9.out" not built
+ 
+>> Compilation failure
+makefile:145: recipe for target 'Lab9.out' failed
+gmake[1]: *** [Lab9.out] Error 1
+makefile:141: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab9_template.c", line 35: warning #225-D: function "lcd_setCursor" declared implicitly
+"../lab9_template.c", line 26: warning #179-D: variable "buffer" was declared but never referenced
+Finished building: "../lab9_template.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingC.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+ 
+ undefined     first referenced   
+  symbol           in file        
+ ---------     ----------------   
+ lcd_setCursor ./lab9_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab9.out" not built
+ 
+>> Compilation failure
+makefile:145: recipe for target 'Lab9.out' failed
+gmake[1]: *** [Lab9.out] Error 1
+makefile:141: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingC.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+ 
+ undefined     first referenced   
+  symbol           in file        
+ ---------     ----------------   
+ lcd_setCursor ./lab9_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab9.out" not built
+ 
+>> Compilation failure
+makefile:145: recipe for target 'Lab9.out' failed
+gmake[1]: *** [Lab9.out] Error 1
+makefile:141: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab9_template.c", line 26: warning #179-D: variable "buffer" was declared but never referenced
+Finished building: "../lab9_template.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingC.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab9_template.c", line 21: warning #179-D: variable "buffer" was declared but never referenced
+Finished building: "../lab9_template.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingC.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 138: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingC.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "done" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "falling_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "g_end_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "TIMER3B_Handler" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "ping_init" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "g_state" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "pulse_width" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "g_start_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "rising_time" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "ping_getDistance" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "overflow" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10056: symbol "ping_trigger" redefined: first defined in "./ping.obj"; redefined in "./pingC.obj"
+error #10010: errors encountered during linking; "Lab9.out" not built
+ 
+>> Compilation failure
+makefile:145: recipe for target 'Lab9.out' failed
+gmake[1]: *** [Lab9.out] Error 1
+makefile:141: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 139: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 139: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 139: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 142: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 142: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'uart-interrupt.obj' failed
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+"../uart-interrupt.c", line 134: error #20: identifier "g_state" is undefined
+"../uart-interrupt.c", line 134: error #20: identifier "LOW" is undefined
+"../uart-interrupt.c", line 137: error #20: identifier "rising_time" is undefined
+"../uart-interrupt.c", line 138: error #20: identifier "HIGH" is undefined
+"../uart-interrupt.c", line 143: error #20: identifier "falling_time" is undefined
+"../uart-interrupt.c", line 146: error #20: identifier "rising_time" is undefined
+"../uart-interrupt.c", line 148: error #20: identifier "pulse_width" is undefined
+"../uart-interrupt.c", line 149: error #20: identifier "overflow" is undefined
+"../uart-interrupt.c", line 153: error #20: identifier "pulse_width" is undefined
+"../uart-interrupt.c", line 154: error #20: identifier "overflow" is undefined
+"../uart-interrupt.c", line 157: error #20: identifier "done" is undefined
+"../uart-interrupt.c", line 162: error #171: expected a declaration
+12 errors detected in the compilation of "../uart-interrupt.c".
+gmake: *** [uart-interrupt.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../uart-interrupt.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab6" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="uart-interrupt.d_raw"  "../uart-interrupt.c"
+"../uart-interrupt.c", line 18: warning #69-D: integer conversion resulted in a change of sign
+Finished building: "../uart-interrupt.c"
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 145: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'lab9_template.obj' failed
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab9_template.c", line 21: error #20: identifier "g_state" is undefined
+"../lab9_template.c", line 39: warning #225-D: function "lcd_print" declared implicitly
+1 error detected in the compilation of "../lab9_template.c".
+gmake: *** [lab9_template.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab9_template.c", line 38: warning #225-D: function "lcd_print" declared implicitly
+Finished building: "../lab9_template.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+ 
+ undefined first referenced   
+  symbol       in file        
+ --------- ----------------   
+ lcd_print ./lab9_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab9.out" not built
+ 
+>> Compilation failure
+makefile:144: recipe for target 'Lab9.out' failed
+gmake[1]: *** [Lab9.out] Error 1
+makefile:140: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab9_template.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 146: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab9_template.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+ 
+>> Compilation failure
+subdir_rules.mk:9: recipe for target 'lab9_template.obj' failed
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+"../lab9_template.c", line 35: error #20: identifier "pul" is undefined
+"../lab9_template.c", line 37: warning #93-D: identifier-list parameters may only be used in a function definition
+1 error detected in the compilation of "../lab9_template.c".
+gmake: *** [lab9_template.obj] Error 1
+gmake: Target 'all' not remade because of errors.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../lab9_template.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="lab9_template.d_raw"  "../lab9_template.c"
+"../lab9_template.c", line 13: warning #1181-D: #warning directive: "Possible unimplemented functions"
+Finished building: "../lab9_template.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 147: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 149: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab6 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building target: "Lab6.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab6.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab6_linkInfo.xml" --rom_model -o "Lab6.out" "./Timer.obj" "./button.obj" "./lab6-interrupt_template.obj" "./lab6_template.obj" "./lcd.obj" "./movement.obj" "./open_interface.obj" "./tm4c123gh6pm_startup_ccs.obj" "./uart-interrupt.obj" "./uart.obj" "../libcybotScan.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+error #10056: symbol "uart_sendChar" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive_nonblocking" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_receive" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+error #10056: symbol "uart_sendStr" redefined: first defined in "./uart-interrupt.obj"; redefined in "./uart.obj"
+ 
+ undefined             first referenced   
+  symbol                   in file        
+ ---------             ----------------   
+ cyBot_uart_init_clean ./lab6_template.obj
+ 
+error #10234-D: unresolved symbols remain
+error #10010: errors encountered during linking; "Lab6.out" not built
+ 
+>> Compilation failure
+makefile:146: recipe for target 'Lab6.out' failed
+gmake[1]: *** [Lab6.out] Error 1
+makefile:142: recipe for target 'all' failed
+gmake: *** [all] Error 2
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+Building file: "../ping.c"
+Invoking: Arm Compiler
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --include_path="C:/Users/msant/cpre288_lab/Lab9" --include_path="C:/ti/TivaWare_C_Series-2.2.0.295" --include_path="C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi --preproc_with_compile --preproc_dependency="ping.d_raw"  "../ping.c"
+"../ping.c", line 149: warning #994-D: missing return statement at end of non-void function "ping_getDistance"
+Finished building: "../ping.c"
+ 
+Building target: "Lab9.out"
+Invoking: Arm Linker
+"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/bin/armcl" -mv7M4 --code_state=16 --float_support=FPv4SPD16 -me --define=ccs="ccs" --define=PART_TM4C123GH6PM -g --gcc --diag_warning=225 --diag_wrap=off --display_error_number --abi=eabi -z -m"Lab9.map" --heap_size=4096 --stack_size=4096 -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/lib" -i"C:/ti/ccs1271/ccs/tools/compiler/ti-cgt-arm_20.2.7.LTS/include" --reread_libs --diag_wrap=off --display_error_number --warn_sections --xml_link_info="Lab9_linkInfo.xml" --rom_model -o "Lab9.out" "./Timer.obj" "./adc.obj" "./lab9_template.obj" "./lcd.obj" "./ping.obj" "./pingOne.obj" "./tm4c123gh6pm_startup_ccs.obj" "../libcybotScan.lib" "../libcybotUART.lib" "../tm4c123gh6pm.cmd"  -llibc.a -l"C:/ti/TivaWare_C_Series-2.2.0.295/driverlib/ccs/Debug/driverlib.lib" 
+<Linking>
+Finished building target: "Lab9.out"
+ 
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project Lab9 ****
+
+"C:\\ti\\ccs1271\\ccs\\utils\\bin\\gmake" -k -j 20 all -O 
+ 
+gmake[1]: 'Lab9.out' is up to date.
+
+**** Build Finished ****

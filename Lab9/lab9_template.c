@@ -18,28 +18,29 @@ int main(void) {
 	lcd_init();
 	ping_init();
 
-	char buffer[20];
+    done = 0;
 
-	while(1)
-	{
-	    done = 0;
+    char lcd_buffer[32];  // buffer for LCD output
 
+    while (1)
+    {
+        // Trigger ultrasonic pulse
         ping_trigger();
 
-        while(done == 0);
+        while (!done) {}
 
-        lcd_clear();
+        // Prepare display string: pulse width and overflow
+        // Format: "Pulse: <ticks> Ovf: YES/NO"
+        sprintf(lcd_buffer, "Pulse:%lu Ovf:%s", pulse_width, overflow ? "YES" : "NO");
 
-        // Display pulse width
-        sprintf(buffer, "PW: %u", pulse_width);
-        lcd_puts(buffer);
+        // Print to LCD (assumes lcd_print handles full string with line wrap)
+        lcd_printf(lcd_buffer);
 
-        if (overflow)
-            lcd_puts("Overflow!");
-        else
-            lcd_puts("OK");
+        // Reset done for next measurement
+        done = 0;
 
-        timer_waitMillis(200);
-	}
+        // Optional: delay before next measurement
+        timer_waitMicros(60000);  // 60 ms
+    }
 
 }
