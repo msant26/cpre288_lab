@@ -6,10 +6,10 @@
 
 #include "Timer.h"
 #include "lcd.h"
-#include "ping.h"
 #include <stdint.h>
 #include <stdbool.h>
 #include <inc/tm4c123gh6pm.h>
+#include <Servo.h>
 #include "driverlib/interrupt.h"
 
 // Uncomment or add any include directives that are needed

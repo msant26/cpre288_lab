@@ -4,7 +4,7 @@
  * @author
 */
 
-#include "ping.h"
+#include <Servo.h>
 #include "Timer.h"
 
 // Global shared variables

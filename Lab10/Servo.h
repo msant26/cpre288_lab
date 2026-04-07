@@ -3,8 +3,8 @@
  * @file ping.c
  * @author
  */
-#ifndef PING_H_
-#define PING_H_
+#ifndef SERVO_H_
+#define SERVO_H_
 
 #include <stdint.h>
 #include <stdbool.h>
@@ -38,4 +38,4 @@ void TIMER3B_Handler(void);
  */
 float ping_getDistance (void);
 
-#endif /* PING_H_ */
+#endif /* SERVO_H_ */
