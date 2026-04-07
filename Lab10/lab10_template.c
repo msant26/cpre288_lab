@@ -27,7 +27,7 @@ int main(void) {
     while (1)
     {
         int timeout = 0;
-        int angles[] = {90, 30, 150, 90};
+        uint16_t angles[] = {90, 30, 150, 90};
         int i;
 
         while (!done) {}
