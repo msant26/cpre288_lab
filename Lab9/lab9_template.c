@@ -7,6 +7,10 @@
 #include "Timer.h"
 #include "lcd.h"
 #include "ping.h"
+#include <stdint.h>
+#include <stdbool.h>
+#include <inc/tm4c123gh6pm.h>
+#include "driverlib/interrupt.h"
 
 // Uncomment or add any include directives that are needed
 
@@ -18,29 +22,26 @@ int main(void) {
 	lcd_init();
 	ping_init();
 
-    done = 0;
-
-    char lcd_buffer[32];  // buffer for LCD output
+    char lcd_buffer[32];
 
     while (1)
     {
-        // Trigger ultrasonic pulse
+        lcd_printf("Triggering");
+        timer_waitMillis(10);
         ping_trigger();
+        lcd_printf("Waiting for ISR");
+
+        int timeout = 0;
 
         while (!done) {}
 
-        // Prepare display string: pulse width and overflow
-        // Format: "Pulse: <ticks> Ovf: YES/NO"
         sprintf(lcd_buffer, "Pulse:%lu Ovf:%s", pulse_width, overflow ? "YES" : "NO");
 
-        // Print to LCD (assumes lcd_print handles full string with line wrap)
         lcd_printf(lcd_buffer);
 
-        // Reset done for next measurement
         done = 0;
 
         // Optional: delay before next measurement
         timer_waitMicros(60000);  // 60 ms
     }
-
 }

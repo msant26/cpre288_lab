@@ -14,6 +14,7 @@
 extern volatile uint32_t pulse_width;
 extern volatile uint8_t done;
 extern volatile uint8_t overflow;
+extern volatile uint32_t interrupt_cnt;
 
 /**
  * Initialize ping sensor. Uses PB3 and Timer 3B

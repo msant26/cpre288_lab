@@ -22,7 +22,7 @@
 
 
 
-int maina(void) {
+int main(void) {
 
     oi_t *sensor_data = oi_alloc(); // do this only once at start of main()
     oi_init(sensor_data); // do this only once at start of main()
@@ -37,12 +37,11 @@ int maina(void) {
     cyBOT_init_Scan(0b0111);
     uart_init();
 
-    cyBOT_SERVO_cal();
+    // cyBOT_SERVO_cal();
 
     right_calibration_value = 253750;
     left_calibration_value = 1235500;
 
-    move_forward(sensor_data, 100.0);
     while(1){
         cyBOT_Scan(90, scan_data);
         pingData = scan_data->sound_dist;

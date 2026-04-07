@@ -18,85 +18,88 @@ volatile uint32_t falling_time = 0;
 volatile uint32_t pulse_width = 0;
 volatile uint8_t done = 0;
 volatile uint8_t overflow = 0;
+volatile uint32_t interrupt_cnt = 0;
 
 void ping_init (void){
 
-    // Enable clock
+    // enable clock
     SYSCTL_RCGCGPIO_R |= 0x02;
     SYSCTL_RCGCTIMER_R |= 0x08;
 
-    // Clock wait loop
+    // clock wait loop
     while((SYSCTL_PRGPIO_R & 0x02) == 0){};
     while((SYSCTL_PRTIMER_R & 0x08) == 0){};
 
-    // Ensures timer is disabled
+    // ensures timer is disabled
     TIMER3_CTL_R &= ~0x100;
 
-    // Enable alternate functions
+    // enable alternate functions
     GPIO_PORTB_AFSEL_R |= 0x08;
 
-    // Enable digital functions
+    // enable digital functions
     GPIO_PORTB_DEN_R |= 0x08;
-    GPIO_PORTB_DIR_R &= ~0x08;
 
-    // Select alternate function
+    // select alternate function
     GPIO_PORTB_PCTL_R = (GPIO_PORTB_PCTL_R & ~0xF000) | 0x7000;
 
-    // Configure 16 Bit mode
+    // configure 16 Bit mode
     TIMER3_CFG_R = 0x04;
 
-    // Configure input edge-time
+    // configure input edge-time
     TIMER3_TBMR_R = 0x07;
-    TIMER3_TBMR_R &= ~0x10;
 
     // 8bit prescaler for 24bit timer
     TIMER3_TBPR_R = 0xFF;
     TIMER3_TBILR_R = 0xFFFF;
 
-    // Capture both rising and falling
+    // capture both rising and falling
     TIMER3_CTL_R |= 0xC00;
 
-    // Clear flag and enable interrupts
+    // clear flag and enable interrupts
     TIMER3_ICR_R = 0x400;
     TIMER3_IMR_R |= 0x400;
 
-    // Turn on timer
+    // turn on timer
     TIMER3_CTL_R |= 0x100;
 
     IntRegister(INT_TIMER3B, TIMER3B_Handler);
 
     // Interrupt register
-    NVIC_EN1_R |= (1 << (INT_TIMER3B - 32));
+    NVIC_EN1_R |= 0x10;
 
     IntMasterEnable();
 }
 
 void ping_trigger (void){
+    done = 0;
     g_state = LOW;
-    // Disable timer and disable timer interrupt
+
+    // disable timer and disable timer interrupt
     TIMER3_CTL_R &= ~0x100;
     TIMER3_IMR_R &= ~0x400;
-    // Disable alternate function (disconnect timer from port pin)
+
+    // disable alternate function
     GPIO_PORTB_AFSEL_R &= ~0x08;
 
-    // Low state (2us to allow low to set)
+    // low state (2us to allow low to set)
     GPIO_PORTB_DIR_R |= 0x08;
     GPIO_PORTB_DATA_R &= ~0x08;
     timer_waitMicros(2);
 
-    // High state (5us)
+    // high state (5us)
     GPIO_PORTB_DATA_R |= 0x08;
     g_state = HIGH;
     timer_waitMicros(5);
 
-    // Return to low state
+    // return to low state
     GPIO_PORTB_DATA_R &= ~0x08;
     g_state = LOW;
 
-    // Clear an interrupt that may have been erroneously triggered
+    // clear any interrupts
     TIMER3_ICR_R = 0x400;
     GPIO_PORTB_DIR_R &= ~0x08;
-    // Re-enable alternate function, timer interrupt, and timer
+
+    // re-enable alternate function, timer interrupt, and timer
     GPIO_PORTB_AFSEL_R |= 0x08;
     timer_waitMicros(1);
     TIMER3_IMR_R |= 0x400;
@@ -107,24 +110,24 @@ void TIMER3B_Handler(void)
 {
     if (TIMER3_MIS_R & 0x400)
     {
-        // Clear capture interrupt
+        // clear interrupt
         TIMER3_ICR_R = 0x400;
 
-        // 24-bit timestamp
+        // stores timestamp
         uint32_t timestamp = TIMER3_TBR_R & 0x00FFFFFF;
 
         if (g_state == LOW)
         {
-            // Rising edge
+            // rising edge
             rising_time = timestamp;
             g_state = HIGH;
         }
         else
         {
-            // Falling edge
+            // falling edge
             falling_time = timestamp;
 
-            // Down-counting timer → handle wraparound
+            // subtracts rise from fall for width
             if (rising_time >= falling_time)
             {
                 pulse_width = rising_time - falling_time;
@@ -132,7 +135,8 @@ void TIMER3B_Handler(void)
             }
             else
             {
-                pulse_width = rising_time + (0x01000000 - falling_time); // 2^24 wrap
+                // overflow for negative val
+                pulse_width = rising_time + (0x01000000 - falling_time);
                 overflow = 1;
             }
 

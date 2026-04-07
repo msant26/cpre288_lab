@@ -24,7 +24,7 @@
 
 
 
-int main(void) {
+int maina(void) {
 
     int targetAngle = 45;
     float targetDist = 1000;
