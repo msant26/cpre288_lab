@@ -1,6 +1,6 @@
 /**
  * @file lab9_template.c
- * @author
+ * @Author: Michael Santiago
  * Template file for CprE 288 Lab 9
  */
 
