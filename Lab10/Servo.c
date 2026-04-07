@@ -60,7 +60,7 @@ void servo_move(uint16_t degrees){
     float pulse_width = 0.0;
 
     // Map angle to pulse width
-    pulse_width = 1.0 + (degrees/180.0);
+    pulse_width = 1.1 + (degrees * (0.8 / 180.0));
 
     // convert ms to clock cycles
     int match_value = (int)(320000 - (pulse_width * 16000));
