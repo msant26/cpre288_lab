@@ -26,16 +26,9 @@ int main(void) {
 
     while (1)
     {
-        lcd_printf("Triggering");
-        timer_waitMillis(10);
-        ping_trigger();
-        lcd_printf("Waiting for ISR");
-
         int timeout = 0;
         int angle;
         int i;
-
-        while (!done) {}
 
         for (i=0; i<3; i++){
             if (i == 0){
@@ -61,14 +54,8 @@ int main(void) {
             }
 
             lcd_printf(lcd_buffer);
+            timer_waitMillis(500);  // 60 ms
         }
         
-
-        
-
-        done = 0;
-
-        // Optional: delay before next measurement
-        timer_waitMicros(60000);  // 60 ms
     }
 }

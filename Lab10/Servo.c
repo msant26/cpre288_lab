@@ -35,8 +35,8 @@ void servo_init(void){
     // configure 16 Bit mode
     TIMER1_CFG_R = 0x04;
 
-    // **CHECK: configure input edge-time, periodic, and PWM
-    TIMER1_TBMR_R = 0x0C;
+    // **CHECK: configure periodic, and PWM
+    TIMER1_TBMR_R = 0x0A;
 
     // 8bit prescaler for 24bit timer *
     TIMER1_TBPR_R = 0xFF;
@@ -44,6 +44,12 @@ void servo_init(void){
 
     // capture both rising and falling
     TIMER1_CTL_R |= 0xC00;
+
+    // Loads start register
+    TIMER1_TBILR_R |= 0xFFFF;
+
+    // Loads match register
+    TIMER1_TBMATCHR_R |= 0xFFFF;
 
     // turn on timer
     TIMER1_CTL_R |= 0x100;
