@@ -30,12 +30,10 @@ int main(void) {
         int angles[] = {90, 30, 150, 90};
         int i;
 
-        while (!done) {}
-
         for (i=0; i<4; i++){
 
             servo_move(angles[i]);
-            sprintf(lcd_buffer, "Angle: %d", angle);
+            sprintf(lcd_buffer, "Angle: %d", angles[i]);
             lcd_printf(lcd_buffer);
             timer_waitMicros(1000000);  // 1 second
         }
