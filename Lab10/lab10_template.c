@@ -27,34 +27,17 @@ int main(void) {
     while (1)
     {
         int timeout = 0;
-        int angle;
+        int angles[] = {90, 30, 150, 90};
         int i;
 
-        for (i=0; i<3; i++){
-            if (i == 0){
-                angle = 90;
-                servo_move(angle);
-                sprintf(lcd_buffer, "Angle: %d", angle);
-                timer_waitMicros(1000000);  // 1 second
-            }else if (i == 1){
-                angle = 30;
-                servo_move(angle);
-                sprintf(lcd_buffer, "Angle: %d", angle);
-                timer_waitMicros(1000000);  // 1 second
-            }else if (i == 2){
-                angle = 150;
-                servo_move(angle);
-                sprintf(lcd_buffer, "Angle: %d", angle);
-                timer_waitMicros(1000000);  // 1 second
-            }else{
-                angle = 90;
-                servo_move(angle);
-                sprintf(lcd_buffer, "Angle: %d", angle);
-                timer_waitMicros(1000000);  // 1 second
-            }
+        while (!done) {}
 
+        for (i=0; i<4; i++){
+
+            servo_move(angles[i]);
+            sprintf(lcd_buffer, "Angle: %d", angle);
             lcd_printf(lcd_buffer);
-            timer_waitMillis(500);  // 60 ms
+            timer_waitMicros(1000000);  // 1 second
         }
         
     }

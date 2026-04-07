@@ -63,7 +63,7 @@ void servo_move(uint16_t degrees){
     pulse_width = 1.0 + (degrees/180.0);
 
     // convert ms to clock cycles
-    int match_value = 320000 - (pulse_width * 16000);
+    int match_value = (int)(320000 - (pulse_width * 16000));
 
     TIMER1_TBMATCHR_R = match_value; 
 }
