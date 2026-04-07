@@ -30,8 +30,6 @@ int main(void) {
         uint16_t angles[] = {90, 30, 150, 90};
         int i;
 
-        while (!done) {}
-
         for (i=0; i<4; i++){
 
             servo_move(angles[i]);
