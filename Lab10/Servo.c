@@ -10,6 +10,8 @@
 // Global shared variables
 // Use extern declarations in the header file
 
+uint32_t initPos90;
+
 void servo_init(void){
 
     // enable clock
@@ -39,17 +41,14 @@ void servo_init(void){
     TIMER1_TBMR_R = 0x0A;
 
     // 8bit prescaler for 24bit timer *
-    TIMER1_TBPR_R = 0xFF;
-    TIMER1_TBILR_R = 0xFFFF;
+    TIMER1_TBPR_R = 0x04;
+    TIMER1_TBILR_R = 0xE200;
 
-    // capture both rising and falling
-    TIMER1_CTL_R |= 0xC00;
-
-    // Loads start register
-    TIMER1_TBILR_R |= 0xFFFF;
+    initPos90 = 320000 - 24000;
 
     // Loads match register
-    TIMER1_TBMATCHR_R |= 0xFFFF;
+    TIMER1_TBMATCHR_R |= (initPos90 & 0xFFFF);
+    TIMER1_TBPMR_R |= (initPos90 >> 16);
 
     // turn on timer
     TIMER1_CTL_R |= 0x100;
